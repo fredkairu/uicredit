@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "717456806512",
+    "firebase_url": "https://uipcredit-492f5.firebaseio.com",
+    "project_id": "uipcredit-492f5",
+    "storage_bucket": "uipcredit-492f5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:717456806512:android:bc85dfd73393f1cc",
+        "android_client_info": {
+          "package_name": "org.uipcredits.mobilebanking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "717456806512-l19cqrl6t704382h3015nr7a802hqg63.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.uipcredits.mobilebanking",
+            "certificate_hash": "086d4ab82a6281a0486c4d6a4d631ebf28aec54b"
+          }
+        },
+        {
+          "client_id": "717456806512-82qh13jok25fr8v046ei44ad0u7q62h5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_-J68Ar8tZyfkvWyLv6O4MxD9HGvr_JI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "717456806512-82qh13jok25fr8v046ei44ad0u7q62h5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

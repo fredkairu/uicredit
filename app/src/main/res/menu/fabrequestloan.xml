@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/viewstatusmenu"
+        android:icon="@drawable/ic_viewstatus2"
+        android:title="View your status"/>
+
+    <item
+        android:id="@+id/requestloan"
+        android:visible="false"
+        android:icon="@drawable/ic_requestloan"
+        android:title="Request Loan" />
+    <item
+        android:id="@+id/actionpayment"
+        android:icon="@drawable/ic_payloan"
+        android:title="Pay Loan"/>
+    <item
+        android:id="@+id/actionloanlimit"
+        android:icon="@drawable/ic_payloan"
+        android:visible="false"
+        android:title="Loan Limit"/>
+
+    <item
+        android:id="@+id/actionhome"
+        android:visible="false"
+        android:icon="@drawable/ic_limit"
+        android:title="Home"/>
+
+
+</menu>

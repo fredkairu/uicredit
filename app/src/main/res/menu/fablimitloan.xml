@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/requestloan"
+        android:visible="false"
+        android:icon="@drawable/ic_requestloan"
+        android:title="Request Loan" />
+
+    <item
+        android:id="@+id/actionloanlimit"
+        android:icon="@drawable/ic_limit"
+        android:title="Loan Limit"/>
+
+
+
+
+</menu>
