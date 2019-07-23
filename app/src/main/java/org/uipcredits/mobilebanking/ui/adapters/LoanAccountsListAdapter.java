@@ -201,7 +201,7 @@ public class LoanAccountsListAdapter extends RecyclerView.Adapter<RecyclerView.V
     private void setLoanDetails(ViewHolder viewHolder, LoanAccount loanAccount, int color, String activityStr,String dateStr,
                                 String dueDateStr, String status, Double rate) {
 
-        double amountBalance = loanAccount.getLoanBalance() != 0 ? loanAccount.getLoanBalance() : 0;
+        double amountBalance = loanAccount.getLoanBalance() != 0 ? loanAccount.getLoanBalance() : loanAccount.getAmountPaid();
         viewHolder.tvAccountBalance.setVisibility(View.VISIBLE);
         viewHolder.tvAccountBalance.setText("KSh "+CurrencyUtil.formatCurrency(context, amountBalance));
         viewHolder.tvAccountBalance.setTextColor(ContextCompat.getColor(context, color));
