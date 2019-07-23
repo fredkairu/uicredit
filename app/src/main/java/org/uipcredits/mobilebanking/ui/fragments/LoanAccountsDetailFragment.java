@@ -92,6 +92,7 @@ public class LoanAccountsDetailFragment extends BaseFragment implements LoanAcco
     private boolean showLoanUpdateOption = false;
     private long loanId;
     private SweetUIErrorHandler sweetUIErrorHandler;
+    private double loanBal;
 
     View rootView;
 
@@ -212,6 +213,7 @@ public class LoanAccountsDetailFragment extends BaseFragment implements LoanAcco
                 loanWithAssociations.getSummary().getCurrency().getDisplaySymbol(), CurrencyUtil.
                         formatCurrency(getActivity(),
                                 loanWithAssociations.getSummary().getTotalOutstanding())));
+        loanBal = loanWithAssociations.getSummary().getTotalOutstanding();
         for (Periods thisPeriod : loanWithAssociations.getRepaymentSchedule().getPeriods()) {
             if (thisPeriod.getDueDate().equals(loanWithAssociations.
                     getSummary().getOverdueSinceDate())) {
@@ -219,6 +221,7 @@ public class LoanAccountsDetailFragment extends BaseFragment implements LoanAcco
                         loanWithAssociations.getSummary().getCurrency().getDisplaySymbol(),
                         CurrencyUtil.formatCurrency(getActivity(),
                                 thisPeriod.getTotalDueForPeriod())));
+
                 break;
             } else if (loanWithAssociations.getSummary().getOverdueSinceDate() == null) {
                 tvNextInstallmentName.setText(R.string.not_available);
@@ -240,7 +243,7 @@ public class LoanAccountsDetailFragment extends BaseFragment implements LoanAcco
 //               .newInstance(loanId, Constants.TRANSFER_PAY_TO), true, R.id.container);
 
         ((BaseActivity) getActivity()).replaceFragment(StkPushFragment
-                .newInstance(loanId), false, R.id.container);
+                .newInstance(loanId, loanBal), false, R.id.container);
 
     }
 

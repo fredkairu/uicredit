@@ -106,6 +106,7 @@
     <string name="approved">Approved</string>
     <string name="shares_pending">Pending</string>
     <string name="loan_amount_paid">Paid</string>
+    <string name="unpaid">Unpaid</string>
     <string name="balance">Balance</string>
     <string name="rejected">Rejected</string>
     <string name="waiting">Waiting</string>
@@ -274,7 +275,7 @@
     <string name="transactions">Transactions</string>
     <string name="transfer">Transfer</string>
     <string name="approval_pending">Approval Pending</string>
-    <string name="waiting_for_disburse">Waiting for Disburse</string>
+    <string name="waiting_for_disburse">Waiting for Disbursal</string>
     <string name="closed_because_of_obligation">Closed because of some Obligations</string>
     <string name="loan_closed">Loan Closed</string>
     <string name="due_date_in_charges">Due Date:</string>

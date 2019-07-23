@@ -115,5 +115,7 @@ public class Constants {
 
     public static final String INDEX = "index";
 
+    public static final String LOANBAL = "loabBal";
+
     public static final String DATE_PICKER_TYPE = "datePickerType";
 }

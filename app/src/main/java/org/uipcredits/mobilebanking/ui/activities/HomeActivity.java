@@ -253,7 +253,7 @@ public class HomeActivity extends BaseActivity implements UserDetailsView, Navig
         LocalBroadcastManager.getInstance(this).unregisterReceiver(registerReceiver);
         isReceiverRegistered = false;
         super.onPause();
-        finish();
+//        finish();
     }
 
     @Override

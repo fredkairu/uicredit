@@ -55,8 +55,10 @@ public class LoanAccountsListAdapter extends RecyclerView.Adapter<RecyclerView.V
     @Override
     public RecyclerView.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         RecyclerView.ViewHolder vh;
+//        View v = LayoutInflater.from(parent.getContext()).inflate(
+//                R.layout.row_loan_account, parent, false);
         View v = LayoutInflater.from(parent.getContext()).inflate(
-                R.layout.row_loan_account, parent, false);
+                R.layout.row_loan_account_card, parent, false);
         vh = new ViewHolder(v);
         return vh;
     }
@@ -74,10 +76,18 @@ public class LoanAccountsListAdapter extends RecyclerView.Adapter<RecyclerView.V
             ((ViewHolder) holder).tvAccountBalance.setVisibility(View.GONE);
 
             if (loanAccount.getStatus().getActive() && loanAccount.getInArrears()) {
-                ((ViewHolder) holder).disbursements.setVisibility(View.GONE);
-                setLoanAccountsGeneralDetails(holder,R.drawable.redimg, R.color.red, DateHelper
-                        .getDateAsString(loanAccount.getTimeline().getActualDisbursementDate()));
-                setLoanAccountsDetails(((ViewHolder) holder), loanAccount, R.color.red,R.drawable.redimg);
+//                ((ViewHolder) holder).disbursements.setVisibility(View.GONE);
+//                setLoanAccountsGeneralDetails(holder,R.drawable.redimg, R.color.red, DateHelper
+//                        .getDateAsString(loanAccount.getTimeline().getActualDisbursementDate()));
+//                setLoanAccountsDetails(((ViewHolder) holder), loanAccount, R.color.red,R.drawable.redimg);
+
+                setLoanDetails(((ViewHolder) holder), loanAccount, R.color.red,
+                        context.getString(R.string.disbursement),
+                        DateHelper.getDateAsString(loanAccount.getTimeline().
+                                getActualDisbursementDate()),
+                        DateHelper.getDateAsString(loanAccount.getTimeline().
+                                getExpectedMaturityDate()),
+                        context.getString(R.string.in_arrears),loanAccount.getAnnualInterestRate());
 
                 /*setLoanAccountsGeneralDetails(holder,R.drawable.redimg, R.color.red, context.getString(R.string.
                         string_and_string, context.getString(R.string.disbursement), DateHelper
@@ -85,45 +95,94 @@ public class LoanAccountsListAdapter extends RecyclerView.Adapter<RecyclerView.V
                 setLoanAccountsDetails(((ViewHolder) holder), loanAccount, R.color.red,R.drawable.redimg);*/
 
             } else if (loanAccount.getStatus().getActive()) {
-                ((ViewHolder) holder).disbursements.setVisibility(View.GONE);
+//                ((ViewHolder) holder).disbursements.setVisibility(View.GONE);
 
-                setLoanAccountsGeneralDetails(holder,R.drawable.greenimg, R.color.deposit_green1, context.getString(R.
-                        string.string_and_string, context.getString(R.string.disbursement),
+//                setLoanAccountsGeneralDetails(holder,R.drawable.greenimg, R.color.deposit_green1, context.getString(R.
+//                        string.string_and_string, context.getString(R.string.disbursement),
+//                        DateHelper.getDateAsString(loanAccount.getTimeline().
+//                                getActualDisbursementDate())));
+
+//                setLoanAccountsDetails(((ViewHolder) holder), loanAccount, R.color.deposit_green1,R.drawable.greenimg);
+
+                setLoanDetails(((ViewHolder) holder), loanAccount, R.color.light_red,
+                        context.getString(R.string.disbursement),
                         DateHelper.getDateAsString(loanAccount.getTimeline().
-                                getActualDisbursementDate())));
-                setLoanAccountsDetails(((ViewHolder) holder), loanAccount, R.color.deposit_green1,R.drawable.greenimg);
+                                getActualDisbursementDate()),
+                        DateHelper.getDateAsString(loanAccount.getTimeline().
+                                getExpectedMaturityDate()),
+                        context.getString(R.string.unpaid),loanAccount.getAnnualInterestRate());
 
             } else if (loanAccount.getStatus().getWaitingForDisbursal()) {
 
-                setLoanAccountsGeneralDetails(holder, R.drawable.blueimg,R.color.blue, DateHelper
-                        .getDateAsString(loanAccount.getTimeline().getApprovedOnDate()));
+//                setLoanAccountsGeneralDetails(holder, R.drawable.blueimg,R.color.blue, DateHelper
+//                        .getDateAsString(loanAccount.getTimeline().getApprovedOnDate()));
+                setLoanDetails(((ViewHolder) holder), loanAccount, R.color.colorPrimary,
+                        context.getString(R.string.approved),
+                        DateHelper.getDateAsString(loanAccount.getTimeline().
+                                getApprovedOnDate()),
+                        DateHelper.getDateAsString(loanAccount.getTimeline().
+                                getExpectedMaturityDate()),
+                        context.getString(R.string.waiting_for_disburse),loanAccount.getAnnualInterestRate());
 
             } else if (loanAccount.getStatus().getPendingApproval()) {
-                ((ViewHolder) holder).disbursements.setVisibility(View.GONE);
-                setLoanAccountsGeneralDetails(holder,R.drawable.redimg, R.color.light_yellow, context.getString(R.
-                                string.string_and_string, context.getString(R.string.
-                                submitted), DateHelper.getDateAsString(loanAccount.
-                                getTimeline().getSubmittedOnDate())));
+//                ((ViewHolder) holder).disbursements.setVisibility(View.GONE);
+//                setLoanAccountsGeneralDetails(holder,R.drawable.redimg, R.color.light_yellow, context.getString(R.
+//                                string.string_and_string, context.getString(R.string.
+//                                submitted), DateHelper.getDateAsString(loanAccount.
+//                                getTimeline().getSubmittedOnDate())));
+                setLoanDetails(((ViewHolder) holder), loanAccount, R.color.light_yellow,
+                        context.getString(R.string.submitted),
+                        DateHelper.getDateAsString(loanAccount.getTimeline().
+                                getSubmittedOnDate()),
+                        DateHelper.getDateAsString(loanAccount.getTimeline().
+                                getExpectedMaturityDate()),
+                        context.getString(R.string.approval_pending),loanAccount.getAnnualInterestRate());
 
             }  else if (loanAccount.getStatus().getOverpaid()) {
-                ((ViewHolder) holder).disbursements.setVisibility(View.GONE);
-                setLoanAccountsDetails(((ViewHolder) holder), loanAccount, R.color.purple,R.drawable.redimg);
-                setLoanAccountsGeneralDetails(holder,R.drawable.redimg, R.color.purple, context.getString(R.string.
-                        string_and_string, context.getString(R.string.disbursement), DateHelper
-                        .getDateAsString(loanAccount.getTimeline().getActualDisbursementDate())));
+//                ((ViewHolder) holder).disbursements.setVisibility(View.GONE);
+//                setLoanAccountsDetails(((ViewHolder) holder), loanAccount, R.color.purple,R.drawable.redimg);
+//                setLoanAccountsGeneralDetails(holder,R.drawable.redimg, R.color.purple, context.getString(R.string.
+//                        string_and_string, context.getString(R.string.disbursement), DateHelper
+//                        .getDateAsString(loanAccount.getTimeline().getActualDisbursementDate())));
+
+                setLoanDetails(((ViewHolder) holder), loanAccount, R.color.purple,
+                        context.getString(R.string.disbursement),
+                        DateHelper.getDateAsString(loanAccount.getTimeline().
+                                getActualDisbursementDate()),
+                        DateHelper.getDateAsString(loanAccount.getTimeline().
+                                getExpectedMaturityDate()),
+                        context.getString(R.string.overpaid),loanAccount.getAnnualInterestRate());
 
             } else if (loanAccount.getStatus().getClosed()) {
-                ((ViewHolder) holder).disbursements.setVisibility(View.GONE);
+//                ((ViewHolder) holder).disbursements.setVisibility(View.GONE);
+//
+//                setLoanAccountsDetails(((ViewHolder) holder), loanAccount, R.color.deposit_green1,R.drawable.greenimg);
+//                setLoanAccountsGeneralDetails(holder, R.drawable.redimg,R.color.deposit_green1, context.getString(R.string.
+//                        string_and_string, context.getString(R.string.closed), DateHelper
+//                        .getDateAsString(loanAccount.getTimeline().getClosedOnDate())));
 
-                setLoanAccountsGeneralDetails(holder, R.drawable.redimg,R.color.black, context.getString(R.string.
-                        string_and_string, context.getString(R.string.closed), DateHelper
-                        .getDateAsString(loanAccount.getTimeline().getClosedOnDate())));
+                setLoanDetails(((ViewHolder) holder), loanAccount, R.color.deposit_green1,
+                        context.getString(R.string.closed),
+                        DateHelper.getDateAsString(loanAccount.getTimeline().
+                                getClosedOnDate()),
+                        DateHelper.getDateAsString(loanAccount.getTimeline().
+                                getExpectedMaturityDate()),
+                        context.getString(R.string.loan_amount_paid),loanAccount.getAnnualInterestRate());
+
 
             } else {
-                ((ViewHolder) holder).disbursements.setVisibility(View.GONE);
-                setLoanAccountsGeneralDetails(holder,R.drawable.redimg, R.color.gray_dark, context.getString(R.string.
-                            string_and_string, context.getString(R.string.withdrawn2), DateHelper
-                        .getDateAsString(loanAccount.getTimeline().getWithdrawnOnDate())));
+//                ((ViewHolder) holder).disbursements.setVisibility(View.GONE);
+//                setLoanAccountsGeneralDetails(holder,R.drawable.redimg, R.color.gray_dark, context.getString(R.string.
+//                            string_and_string, context.getString(R.string.withdrawn2), DateHelper
+//                        .getDateAsString(loanAccount.getTimeline().getWithdrawnOnDate())));
+
+                setLoanDetails(((ViewHolder) holder), loanAccount, R.color.gray_dark,
+                        context.getString(R.string.withdrawn2),
+                        DateHelper.getDateAsString(loanAccount.getTimeline().
+                                getWithdrawnOnDate()),
+                        DateHelper.getDateAsString(loanAccount.getTimeline().
+                                getWithdrawnOnDate()),
+                        context.getString(R.string.rejected),loanAccount.getAnnualInterestRate());
 
             }
         }
@@ -137,17 +196,32 @@ public class LoanAccountsListAdapter extends RecyclerView.Adapter<RecyclerView.V
         viewHolder.tvAccountBalance.setText(CurrencyUtil.formatCurrency(context, amountBalance));
         viewHolder.tvAccountBalance.setTextColor(ContextCompat.getColor(context, color));
 
-            viewHolder.imagess.setBackgroundResource(img);
+    }
+
+    private void setLoanDetails(ViewHolder viewHolder, LoanAccount loanAccount, int color, String activityStr,String dateStr,
+                                String dueDateStr, String status, Double rate) {
+
+        double amountBalance = loanAccount.getLoanBalance() != 0 ? loanAccount.getLoanBalance() : 0;
+        viewHolder.tvAccountBalance.setVisibility(View.VISIBLE);
+        viewHolder.tvAccountBalance.setText("KSh "+CurrencyUtil.formatCurrency(context, amountBalance));
+        viewHolder.tvAccountBalance.setTextColor(ContextCompat.getColor(context, color));
+        viewHolder.viewCardLeft.setBackgroundColor(context.getResources().getColor(color));
+        viewHolder.tvRates.setText((rate.intValue() != 0 ? rate.intValue() : "15")+"%");
+        viewHolder.disbursements.setText(activityStr);
+        viewHolder.tvDate.setText(dateStr);
+        viewHolder.tv_paymentdate.setText("Due: "+dueDateStr);
+        viewHolder.tv_loan_status.setText(status);
+        viewHolder.tv_loan_status.setTextColor(ContextCompat.getColor(context, color));
+        viewHolder.ivStatusIndicator.setBackgroundColor(context.getResources().getColor(color));
 
     }
 
     private void setLoanAccountsGeneralDetails(RecyclerView.ViewHolder holder,int img, int colorId,
                                                  String dateStr) {
-        ((ViewHolder) holder).ivStatusIndicator.setColorFilter(ContextCompat.
-                getColor(context, colorId));
+        ((ViewHolder) holder).ivStatusIndicator.setBackgroundColor(context.getResources().getColor(colorId));
         ((ViewHolder) holder).tvDate.setText(dateStr);
 
-        ((ViewHolder) holder).imagess.setBackgroundResource(img);
+//        ((ViewHolder) holder).imagess.setBackgroundResource(img);
     }
     @Override
     public int getItemCount() {
@@ -160,14 +234,23 @@ public class LoanAccountsListAdapter extends RecyclerView.Adapter<RecyclerView.V
 
         @BindView(R.id.tv_loanAccountProductName)
         TextView tvLoanAccountProductName;
+        @BindView(R.id.tv_loan_status)
+        TextView tv_loan_status;
 
         @BindView(R.id.iv_status_indicator)
-        AppCompatImageView ivStatusIndicator;
+        View ivStatusIndicator;
 
         @BindView(R.id.tv_date)
         TextView tvDate;
-        @BindView(R.id.images)
-        ImageView imagess;
+        @BindView(R.id.tv_paymentdate)
+        TextView tv_paymentdate;
+        @BindView(R.id.tvRates)
+        TextView tvRates;
+        @BindView(R.id.viewCardLeft)
+        View viewCardLeft;
+
+//        @BindView(R.id.images)
+//        ImageView imagess;
 
         @BindView(R.id.tv_account_balance)
         TextView tvAccountBalance;

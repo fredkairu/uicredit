@@ -13,11 +13,13 @@
         <include layout="@layout/toolbar"/>
 
         <FrameLayout style="@style/FrameLayout.Container"/>
-    </LinearLayout>
 
+    </LinearLayout>
 
     <include layout="@layout/bottomquickaccess"/>
     <include layout="@layout/fabbuttons"/>
+
+
 
     <android.support.design.widget.NavigationView
         android:id="@+id/navigation_view"

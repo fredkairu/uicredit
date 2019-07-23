@@ -63,7 +63,7 @@ public class ForgetActivity extends AppCompatActivity {
                 hidepDialog();
                 //onSignupSuccess();
                 System.out.println("data out"+ call);
-                Log.d("onResponse", "" + response.body().getMessage());
+                Log.e("onResponse", "" + response.body().getMessage());
 
 
                 if(response.body().getSuccess() == 1) {
@@ -96,7 +96,8 @@ public class ForgetActivity extends AppCompatActivity {
             @Override
             public void onFailure(Call<ApiResponseClientConfirmation> call, Throwable t) {
                 hidepDialog();
-                Log.d("onFailure", t.toString());
+                Log.e("onFailure", t.toString());
+                Toast.makeText(ForgetActivity.this,"A network error occurred. Please try again!", Toast.LENGTH_LONG).show();;
             }
         });
     }

@@ -59,6 +59,7 @@ import static android.content.Context.MODE_PRIVATE;
  */
 public class StkPushFragment extends Fragment  {
     private long accountId;
+    private Double loanBal;
     View rootView;
     private  static final String urlAdress="https://techsavanna.net:3000/UIPSTKPush/webresources/uipstkpush/mpesa/push";
 
@@ -75,10 +76,11 @@ public class StkPushFragment extends Fragment  {
 
     }
 
-public static StkPushFragment newInstance(Long accountId){
+public static StkPushFragment newInstance(Long accountId, double loanBal){
     StkPushFragment transferFragment = new StkPushFragment();
     Bundle args = new Bundle();
     args.putLong(Constants.ACCOUNT_ID, accountId);
+    args.putDouble(Constants.LOANBAL, loanBal);
    // args.putString(Constants.TRANSFER_TYPE, transferType);
     transferFragment.setArguments(args);
     return transferFragment;
@@ -94,6 +96,7 @@ public static StkPushFragment newInstance(Long accountId){
 
         if (getArguments() != null) {
             accountId = getArguments().getLong(Constants.ACCOUNT_ID);
+            loanBal = getArguments().getDouble(Constants.LOANBAL);
            // transferType = getArguments().getString(Constants.TRANSFER_TYPE);
 
         }
@@ -126,6 +129,7 @@ public static StkPushFragment newInstance(Long accountId){
             System.out.println("Phone no "+Phonenumber);
 
         phoneedt.setText(Phonenumber2);
+        amountedt.setText(""+loanBal.intValue());
         //////////////////////////////////////////////////////////////////
 
 

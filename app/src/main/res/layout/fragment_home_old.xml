@@ -12,10 +12,15 @@
         android:id="@+id/swipe_home_container"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white">
         <android.support.v4.widget.NestedScrollView
             android:layout_width="match_parent"
             android:background="@color/white"
-            android:layout_height="match_parent">
+            android:id="@+id/NestedScrollView"
+            android:layout_height="wrap_content">
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -785,10 +790,18 @@
                 </LinearLayout>
             </LinearLayout>
         </android.support.v4.widget.NestedScrollView>
+        <ImageView
+            android:layout_width="@dimen/home_image_size"
+            android:layout_height="@dimen/home_image_size"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/NestedScrollView"
+            android:layout_marginBottom="@dimen/min_frame_size"
+            android:src="@drawable/home"/>
+    </RelativeLayout>
     </android.support.v4.widget.SwipeRefreshLayout>
+
 
 <include layout="@layout/fabbuttons"/>
 <include layout="@layout/bottomquickaccess"/>
-
 </android.support.design.widget.CoordinatorLayout>
 

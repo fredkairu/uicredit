@@ -1,0 +1,173 @@
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="10dp"
+    card_view:cardCornerRadius="2dp"
+    card_view:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/cardview_bg"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="5dp"
+            android:layout_height="100dp"
+            android:id="@+id/viewCardLeft"
+            android:background="@color/deposit_green1"></View>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/disbursements"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="Loan Status"
+                android:textColor="@color/grey_600"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp"
+                android:gravity="center_vertical">
+
+                <View
+                    android:layout_width="7dp"
+                    android:layout_height="7dp"
+                    android:layout_alignParentRight="true"
+                    android:id="@+id/iv_status_indicator"
+                    android:background="@drawable/gree_circle"></View>
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_loan_status"
+                    android:layout_marginLeft="5dp"
+                    android:text="PAID"
+                    android:textColor="@color/deposit_green1"
+                    android:textSize="12dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/disbursements"
+                android:layout_marginTop="3dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_date"
+                    android:layout_marginLeft="20dp"
+                    android:text="Today : 5:40 pm"
+                    android:textColor="@color/material_grey_500"
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linear"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_account_balance"
+                    android:layout_marginLeft="20dp"
+                    android:text="KES 500"
+                    android:textColor="@color/deposit_green1"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginRight="@dimen/fab_elevation"
+                    android:layout_marginLeft="50dp"
+                    app:srcCompat="@drawable/ic_rate"
+                    android:clickable="true"
+                    android:id="@+id/img_rate"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="32dp"
+                    android:id="@+id/tvRates"
+                    android:text="Rate"
+                    android:clickable="true"
+                    android:textColor="@color/grey_600"
+                    android:gravity="center_horizontal"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:visibility="visible"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="32dp"
+                    android:id="@+id/tv_loanAccountProductName"
+                    android:text="loan_name"
+                    android:clickable="true"
+                    android:textColor="@color/grey_600"
+                    android:gravity="center_horizontal"
+                    android:layout_marginLeft="50dp"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:visibility="gone"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_clientLoanAccountNumber"
+                    android:text="Account No"
+                    android:clickable="true"
+                    android:textColor="@color/holo_gray_dark"
+                    android:gravity="right"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:visibility="gone"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Due Date: "
+                    android:textColor="@color/holo_gray_dark"
+                    android:gravity="right"
+                    android:visibility="gone"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_paymentdate"
+                    android:clickable="true"
+                    android:textColor="@color/grey_600"
+                    android:gravity="right"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

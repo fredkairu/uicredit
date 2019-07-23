@@ -4,6 +4,7 @@ import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v4.app.Fragment;
@@ -21,6 +22,7 @@ import org.uipcredits.mobilebanking.R;
 import org.uipcredits.mobilebanking.injection.component.ActivityComponent;
 import org.uipcredits.mobilebanking.injection.component.DaggerActivityComponent;
 import org.uipcredits.mobilebanking.injection.module.ActivityModule;
+import org.uipcredits.mobilebanking.ui.activities.HomeActivity;
 import org.uipcredits.mobilebanking.ui.activities.PassCodeActivity;
 import org.uipcredits.mobilebanking.ui.views.BaseActivityCallback;
 import org.uipcredits.mobilebanking.utils.LanguageHelper;
@@ -95,6 +97,7 @@ public class BaseActivity extends BasePassCodeActivity implements BaseActivityCa
         switch (item.getItemId()) {
             case android.R.id.home:
                 onBackPressed();
+//                startActivity(new Intent(BaseActivity.this, HomeActivity.class));
                 break;
         }
         return super.onOptionsItemSelected(item);

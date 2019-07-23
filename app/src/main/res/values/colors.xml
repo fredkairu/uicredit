@@ -72,5 +72,8 @@
         <item>@color/red_light</item>
         <item>@color/orange_light</item>
     </array>
+ <color name="material_grey_500">#ffa3a3a3</color>
+ <color name="grey_600">#757575</color>
+ <color name="holo_gray_dark">#424242</color>
 
 </resources>
