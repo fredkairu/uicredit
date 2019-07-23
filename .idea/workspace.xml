@@ -281,22 +281,61 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/org/uipcredits/mobilebanking/ui/adapters/LoanAccountsListAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="112" column="58" selection-start-line="112" selection-start-column="51" selection-end-line="112" selection-end-column="58" />
+            <state relative-caret-position="85">
+              <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
               <folding>
-                <element signature="e#4408#4442#0" expanded="true" />
-                <element signature="e#6615#6819#0" expanded="true" />
-                <element signature="e#6686#6720#0" expanded="true" />
+                <element signature="e#3115#3155#0" expanded="true" />
+                <element signature="e#3453#3491#0" expanded="true" />
+                <element signature="e#4711#4751#0" expanded="true" />
+                <element signature="e#5055#5089#0" expanded="true" />
+                <element signature="e#5514#5550#0" expanded="true" />
+                <element signature="e#5846#5894#0" expanded="true" />
+                <element signature="e#6566#6603#0" expanded="true" />
+                <element signature="e#6900#6944#0" expanded="true" />
+                <element signature="e#7670#7710#0" expanded="true" />
+                <element signature="e#8014#8050#0" expanded="true" />
+                <element signature="e#8786#8820#0" expanded="true" />
+                <element signature="e#9114#9158#0" expanded="true" />
+                <element signature="e#9730#9768#0" expanded="true" />
+                <element signature="e#10060#10096#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="29" column="71" selection-start-line="29" selection-start-column="71" selection-end-line="29" selection-end-column="71" />
+            </state>
+          </provider>
+          <provider editor-type-id="android-manifest" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="139">
+              <caret line="68" column="19" selection-start-line="68" selection-start-column="19" selection-end-line="68" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/org/uipcredits/mobilebanking/utils/CurrencyUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="193">
+              <caret line="48" column="48" selection-start-line="48" selection-start-column="48" selection-end-line="48" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="277" column="61" selection-start-line="277" selection-start-column="52" selection-end-line="277" selection-end-column="61" />
+            <state relative-caret-position="189">
+              <caret line="113" column="28" selection-start-line="113" selection-start-column="18" selection-end-line="113" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -314,8 +353,8 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/row_loan_account_card.xml">
           <provider editor-type-id="android-designer2" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="161" column="51" selection-start-line="161" selection-start-column="37" selection-end-line="161" selection-end-column="51" />
+            <state relative-caret-position="149">
+              <caret line="163" column="44" selection-start-line="163" selection-start-column="44" selection-end-line="163" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -333,40 +372,19 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/row_loan_account.xml">
           <provider editor-type-id="android-designer2" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
+            <state relative-caret-position="115">
+              <caret line="125" column="51" selection-start-line="125" selection-start-column="44" selection-end-line="125" selection-end-column="51" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/org/uipcredits/mobilebanking/ui/fragments/ClientAccountsFragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="92" column="64" selection-start-line="92" selection-start-column="64" selection-end-line="92" selection-end-column="64" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_client_accounts.xml">
-          <provider editor-type-id="android-designer2" />
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/org/uipcredits/mobilebanking/ui/fragments/AccountsFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="69" column="16" selection-start-line="69" selection-start-column="16" selection-end-line="69" selection-end-column="16" />
+            <state relative-caret-position="138">
+              <caret line="253" column="42" lean-forward="true" selection-start-line="253" selection-start-column="42" selection-end-line="253" selection-end-column="42" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_accounts.xml">
-          <provider editor-type-id="android-designer2" />
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -384,12 +402,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Share</find>
-      <find>QWWQQWQWQW</find>
-      <find>Output from Server 2222</find>
-      <find>Please enter your Id</find>
-      <find>PAYLOADS</find>
-      <find>DDDDDDDDDD</find>
       <find>Payload 12</find>
       <find>DDDDDD</find>
       <find>areFieldsValidated</find>
@@ -410,10 +422,16 @@
       <find>images</find>
       <find>ivStatusIndicator</find>
       <find>rate</find>
-      <find>due</find>
       <find>paid</find>
-      <find>tvDate</find>
       <find>disburs</find>
+      <find>loan sta</find>
+      <find>approved</find>
+      <find>tvDate</find>
+      <find>due</find>
+      <find>inte</find>
+      <find>%</find>
+      <find>rvAccounts</find>
+      <find>rvAccounts.setAdapter</find>
     </findStrings>
     <replaceStrings>
       <replace>TextView</replace>
@@ -437,9 +455,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/res/drawable/ic_ourservices.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/org/uipcredits/mobilebanking/ui/fragments/HomeFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_add_loan_application.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_user_profile.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/row_recent_transaction.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/menu/fablimitloan.xml" />
@@ -467,7 +482,6 @@
         <option value="$PROJECT_DIR$/app/src/main/java/org/uipcredits/mobilebanking/ui/fragments/RegistrationFragment2.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/org/uipcredits/mobilebanking/ui/fragments/RegistrationFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/org/uipcredits/mobilebanking/presenters/RegistrationPresenter.java" />
-        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/java/org/uipcredits/mobilebanking/models/accounts/loan/Timeline.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/org/uipcredits/mobilebanking/models/client/Client.java" />
@@ -485,9 +499,13 @@
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/gree_circle.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/row_loan_account.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/ic_rate.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/row_loan_account_card.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/org/uipcredits/mobilebanking/ui/adapters/LoanAccountsListAdapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/row_loan_account_card.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/org/uipcredits/mobilebanking/utils/CurrencyUtil.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/org/uipcredits/mobilebanking/ui/adapters/LoanAccountsListAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/java/org/uipcredits/mobilebanking/ui/fragments/AccountsFragment.java" />
       </list>
     </option>
   </component>
@@ -538,17 +556,6 @@
               <item name="mobilebanking" type="cbb59c9e:AndroidPsiDirectoryNode" />
               <item name="ui" type="462c0819:PsiDirectoryNode" />
               <item name="fragments" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="uip" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-            </path>
-            <path>
-              <item name="uip" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-              <item name="values" type="ddeffd01:AndroidResFolderTypeNode" />
             </path>
             <path>
               <item name="uip" type="1abcf292:AndroidViewProjectNode" />
@@ -776,7 +783,7 @@
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.497545" visible="true" weight="0.19742814" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.497545" visible="true" weight="0.24659607" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Build Variants" order="3" sideWeight="0.502455" side_tool="true" weight="0.25340393" />
@@ -794,9 +801,9 @@
       <window_info anchor="bottom" id="Build" order="6" sideWeight="0.4969743" weight="0.56374806" />
       <window_info anchor="bottom" id="Android Profiler" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5030257" side_tool="true" weight="0.64320785" />
-      <window_info anchor="bottom" id="Logcat" order="9" sideWeight="0.49924356" visible="true" weight="0.19969279" />
+      <window_info anchor="bottom" id="Logcat" order="9" sideWeight="0.49924356" weight="0.38556066" />
       <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49924356" weight="0.32569557" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.1827957" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.24116744" />
       <window_info anchor="bottom" id="Inspection Results" order="12" weight="0.32838285" />
       <window_info anchor="bottom" id="Flutter Performance" order="13" side_tool="true" />
       <window_info anchor="bottom" id="Thumbnails" order="14" weight="0.3289689" />
@@ -825,27 +832,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="removed old git files" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/uipcredits/mobilebanking/ui/views/LoginView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="49" column="9" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/uipcredits/mobilebanking/presenters/LoginPresenter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="167" column="49" selection-start-line="167" selection-start-column="49" selection-end-line="167" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/uipcredits/mobilebanking/ui/activities/LoginActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="166" column="60" selection-start-line="166" selection-start-column="60" selection-end-line="166" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/org/uipcredits/mobilebanking/ui/activities/PassCodeActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
@@ -1103,13 +1089,6 @@
       <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/uipcredits/mobilebanking/ui/fragments/AccountsFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="69" column="16" selection-start-line="69" selection-start-column="16" selection-end-line="69" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/build/generated/source/apt/debug/org/uipcredits/mobilebanking/ui/adapters/LoanAccountsListAdapter$ViewHolder$$ViewBinder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -1124,14 +1103,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/row_loan_account.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/org/uipcredits/mobilebanking/models/accounts/loan/LoanAccount.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
@@ -1139,30 +1110,78 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="113" column="28" selection-start-line="113" selection-start-column="18" selection-end-line="113" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/row_loan_account_card.xml">
       <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="161" column="51" selection-start-line="161" selection-start-column="37" selection-end-line="161" selection-end-column="51" />
+        <state relative-caret-position="149">
+          <caret line="163" column="44" selection-start-line="163" selection-start-column="44" selection-end-line="163" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/uipcredits/mobilebanking/utils/CurrencyUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="48" column="48" selection-start-line="48" selection-start-column="48" selection-end-line="48" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/row_loan_account.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="125" column="51" selection-start-line="125" selection-start-column="44" selection-end-line="125" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="29" column="71" selection-start-line="29" selection-start-column="71" selection-end-line="29" selection-end-column="71" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="68" column="19" selection-start-line="68" selection-start-column="19" selection-end-line="68" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/org/uipcredits/mobilebanking/ui/adapters/LoanAccountsListAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="112" column="58" selection-start-line="112" selection-start-column="51" selection-end-line="112" selection-end-column="58" />
+        <state relative-caret-position="85">
+          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
           <folding>
-            <element signature="e#4408#4442#0" expanded="true" />
-            <element signature="e#6615#6819#0" expanded="true" />
-            <element signature="e#6686#6720#0" expanded="true" />
+            <element signature="e#3115#3155#0" expanded="true" />
+            <element signature="e#3453#3491#0" expanded="true" />
+            <element signature="e#4711#4751#0" expanded="true" />
+            <element signature="e#5055#5089#0" expanded="true" />
+            <element signature="e#5514#5550#0" expanded="true" />
+            <element signature="e#5846#5894#0" expanded="true" />
+            <element signature="e#6566#6603#0" expanded="true" />
+            <element signature="e#6900#6944#0" expanded="true" />
+            <element signature="e#7670#7710#0" expanded="true" />
+            <element signature="e#8014#8050#0" expanded="true" />
+            <element signature="e#8786#8820#0" expanded="true" />
+            <element signature="e#9114#9158#0" expanded="true" />
+            <element signature="e#9730#9768#0" expanded="true" />
+            <element signature="e#10060#10096#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/uipcredits/mobilebanking/ui/fragments/AccountsFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
-          <caret line="277" column="61" selection-start-line="277" selection-start-column="52" selection-end-line="277" selection-end-column="61" />
+          <caret line="253" column="42" lean-forward="true" selection-start-line="253" selection-start-column="42" selection-end-line="253" selection-end-column="42" />
         </state>
       </provider>
     </entry>

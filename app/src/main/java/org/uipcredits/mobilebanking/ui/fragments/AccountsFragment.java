@@ -13,6 +13,8 @@ import android.view.ViewGroup;
 import android.widget.Toast;
 
 import com.github.therajanmaurya.sweeterror.SweetUIErrorHandler;
+import com.twotoasters.jazzylistview.recyclerview.JazzyRecyclerViewScrollListener;
+
 import org.uipcredits.mobilebanking.R;
 import org.uipcredits.mobilebanking.models.CheckboxStatus;
 import org.uipcredits.mobilebanking.models.accounts.loan.LoanAccount;
@@ -225,6 +227,11 @@ public class AccountsFragment extends BaseFragment implements
         }
     }
 
+    private void animateRecyclerView(RecyclerView rv){
+        JazzyRecyclerViewScrollListener jazzyScrollListener = new JazzyRecyclerViewScrollListener();
+        rv.setOnScrollListener(jazzyScrollListener);
+        jazzyScrollListener.setTransitionEffect(11);
+    }
     /**
      * Method to clear the current filters and set
      * currentFilterList = null
@@ -245,6 +252,7 @@ public class AccountsFragment extends BaseFragment implements
         if (loanAccounts.size() != 0) {
             loanAccountsListAdapter.setLoanAccountsList(loanAccounts);
             rvAccounts.setAdapter(loanAccountsListAdapter);
+            animateRecyclerView(rvAccounts);
         } else {
          //   showEmptyAccounts(getString(R.string.loan_account));
         }
@@ -262,6 +270,7 @@ public class AccountsFragment extends BaseFragment implements
         if (savingAccounts.size() != 0) {
             savingAccountsListAdapter.setSavingAccountsList(savingAccounts);
             rvAccounts.setAdapter(savingAccountsListAdapter);
+            animateRecyclerView(rvAccounts);
         } else {
             showEmptyAccounts(getString(R.string.savings_account));
         }
@@ -279,6 +288,7 @@ public class AccountsFragment extends BaseFragment implements
         if (shareAccounts.size() != 0) {
             shareAccountsListAdapter.setShareAccountsList(shareAccounts);
             rvAccounts.setAdapter(shareAccountsListAdapter);
+            animateRecyclerView(rvAccounts);
         } else {
             showEmptyAccounts(getString(R.string.share_account));
         }
