@@ -1,4 +1,4 @@
-package org.uipcredits.mobilebanking.ui.fragments;
+package org.uip.mobilebanking.ui.fragments;
 
 import android.content.Context;
 import android.content.DialogInterface;
@@ -21,17 +21,17 @@ import android.widget.RadioGroup;
 
 import org.apache.http.conn.ssl.AllowAllHostnameVerifier;
 import org.json.JSONObject;
-import org.uipcredits.mobilebanking.R;
-import org.uipcredits.mobilebanking.models.register.RegisterPayload;
-import org.uipcredits.mobilebanking.presenters.RegistrationPresenter;
-import org.uipcredits.mobilebanking.ui.activities.ConfirmClientActivity;
-import org.uipcredits.mobilebanking.ui.activities.CreateClientActivity;
-import org.uipcredits.mobilebanking.ui.activities.RegistrationActivity;
-import org.uipcredits.mobilebanking.ui.activities.base.BaseActivity;
-import org.uipcredits.mobilebanking.ui.fragments.base.BaseFragment;
-import org.uipcredits.mobilebanking.ui.views.RegistrationView;
-import org.uipcredits.mobilebanking.utils.Network;
-import org.uipcredits.mobilebanking.utils.Toaster;
+import org.uip.mobilebanking.R;
+import org.uip.mobilebanking.models.register.RegisterPayload;
+import org.uip.mobilebanking.presenters.RegistrationPresenter;
+import org.uip.mobilebanking.ui.activities.ConfirmClientActivity;
+import org.uip.mobilebanking.ui.activities.CreateClientActivity;
+import org.uip.mobilebanking.ui.activities.RegistrationActivity;
+import org.uip.mobilebanking.ui.activities.base.BaseActivity;
+import org.uip.mobilebanking.ui.fragments.base.BaseFragment;
+import org.uip.mobilebanking.ui.views.RegistrationView;
+import org.uip.mobilebanking.utils.Network;
+import org.uip.mobilebanking.utils.Toaster;
 
 
 import java.io.BufferedReader;

@@ -1,4 +1,4 @@
-package org.uipcredits.mobilebanking.ui.activities.base;
+package org.uip.mobilebanking.ui.activities.base;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -16,14 +16,14 @@ import android.view.inputmethod.InputMethodManager;
 import android.widget.Toast;
 
 import com.mifos.mobile.passcode.BasePassCodeActivity;
-import org.uipcredits.mobilebanking.MifosSelfServiceApp;
-import org.uipcredits.mobilebanking.R;
-import org.uipcredits.mobilebanking.injection.component.ActivityComponent;
-import org.uipcredits.mobilebanking.injection.component.DaggerActivityComponent;
-import org.uipcredits.mobilebanking.injection.module.ActivityModule;
-import org.uipcredits.mobilebanking.ui.activities.PassCodeActivity;
-import org.uipcredits.mobilebanking.ui.views.BaseActivityCallback;
-import org.uipcredits.mobilebanking.utils.LanguageHelper;
+import org.uip.mobilebanking.MifosSelfServiceApp;
+import org.uip.mobilebanking.R;
+import org.uip.mobilebanking.injection.component.ActivityComponent;
+import org.uip.mobilebanking.injection.component.DaggerActivityComponent;
+import org.uip.mobilebanking.injection.module.ActivityModule;
+import org.uip.mobilebanking.ui.activities.PassCodeActivity;
+import org.uip.mobilebanking.ui.views.BaseActivityCallback;
+import org.uip.mobilebanking.utils.LanguageHelper;
 
 
 /**

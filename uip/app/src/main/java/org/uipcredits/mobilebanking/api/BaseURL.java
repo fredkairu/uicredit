@@ -1,4 +1,4 @@
-package org.uipcredits.mobilebanking.api;
+package org.uip.mobilebanking.api;
 
 /**
  * @author Vishwajeet

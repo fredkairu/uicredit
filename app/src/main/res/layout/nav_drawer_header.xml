@@ -21,7 +21,7 @@
          />
         <!--app:srcCompat="@drawable/loanlimit2"/> -->
 
-    <org.uipcredits.mobilebanking.utils.CircularImageView
+    <org.uip.mobilebanking.utils.CircularImageView
         android:id="@+id/iv_circular_user_image"
         android:layout_height="65dp"
         android:layout_marginTop="20dp"

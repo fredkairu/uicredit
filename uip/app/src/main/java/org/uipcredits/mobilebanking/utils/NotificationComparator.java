@@ -1,6 +1,6 @@
-package org.uipcredits.mobilebanking.utils;
+package org.uip.mobilebanking.utils;
 
-import org.uipcredits.mobilebanking.models.notification.MifosNotification;
+import org.uip.mobilebanking.models.notification.MifosNotification;
 
 import java.util.Comparator;
 

@@ -1,14 +1,14 @@
-package org.uipcredits.mobilebanking.api.local;
+package org.uip.mobilebanking.api.local;
 
 import android.annotation.SuppressLint;
 
 import com.raizlabs.android.dbflow.sql.language.SQLite;
-import org.uipcredits.mobilebanking.models.Charge;
-import org.uipcredits.mobilebanking.models.Page;
-import org.uipcredits.mobilebanking.models.notification.MifosNotification;
+import org.uip.mobilebanking.models.Charge;
+import org.uip.mobilebanking.models.Page;
+import org.uip.mobilebanking.models.notification.MifosNotification;
 
-import org.uipcredits.mobilebanking.models.notification.MifosNotification_Table;
-import org.uipcredits.mobilebanking.utils.NotificationComparator;
+import org.uip.mobilebanking.models.notification.MifosNotification_Table;
+import org.uip.mobilebanking.utils.NotificationComparator;
 
 
 

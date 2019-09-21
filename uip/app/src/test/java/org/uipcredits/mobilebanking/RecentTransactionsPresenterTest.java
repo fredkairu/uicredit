@@ -1,17 +1,15 @@
-package org.uipcredits.mobilebanking;
+package org.uip.mobilebanking;
 
 import android.content.Context;
 
-import org.uipcredits.mobilebanking.FakeRemoteDataSource;
+import org.uip.mobilebanking.FakeRemoteDataSource;
 
 import com.uipcredits.mobilebanking.R;
 
-import org.uipcredits.mobilebanking.api.DataManager;
+import org.uip.mobilebanking.api.DataManager;
 import com.uipcredits.mobilebanking.models.Page;
 import com.uipcredits.mobilebanking.models.Transaction;
-import org.uipcredits.mobilebanking.presenters.RecentTransactionsPresenter;
-import org.uipcredits.mobilebanking.ui.views.RecentTransactionsView;
-import org.uipcredits.mobilebanking.util.RxSchedulersOverrideRule;
+import org.uip.mobilebanking.presenters.RecentTransactionsPresenter;
 
 import org.junit.After;
 import org.junit.Before;
@@ -20,11 +18,10 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.Mock;
 import org.mockito.junit.MockitoJUnitRunner;
-import org.uipcredits.mobilebanking.api.DataManager;
-import org.uipcredits.mobilebanking.models.Page;
-import org.uipcredits.mobilebanking.models.Transaction;
-import org.uipcredits.mobilebanking.ui.views.RecentTransactionsView;
-import org.uipcredits.mobilebanking.util.RxSchedulersOverrideRule;
+import org.uip.mobilebanking.models.Page;
+import org.uip.mobilebanking.models.Transaction;
+import org.uip.mobilebanking.ui.views.RecentTransactionsView;
+import org.uip.mobilebanking.util.RxSchedulersOverrideRule;
 
 
 import io.reactivex.Observable;

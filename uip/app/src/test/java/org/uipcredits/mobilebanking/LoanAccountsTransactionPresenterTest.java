@@ -1,15 +1,14 @@
-package org.uipcredits.mobilebanking;
+package org.uip.mobilebanking;
 
 import android.content.Context;
 
 import com.uipcredits.mobilebanking.R;
 
-import org.uipcredits.mobilebanking.api.DataManager;
+import org.uip.mobilebanking.api.DataManager;
 import com.uipcredits.mobilebanking.models.accounts.loan.LoanWithAssociations;
-import org.uipcredits.mobilebanking.presenters.LoanAccountsTransactionPresenter;
-import org.uipcredits.mobilebanking.ui.views.LoanAccountsTransactionView;
-import org.uipcredits.mobilebanking.util.RxSchedulersOverrideRule;
-import org.uipcredits.mobilebanking.utils.Constants;
+import org.uip.mobilebanking.presenters.LoanAccountsTransactionPresenter;
+import org.uip.mobilebanking.ui.views.LoanAccountsTransactionView;
+import org.uip.mobilebanking.util.RxSchedulersOverrideRule;
 
 import org.junit.After;
 import org.junit.Before;
@@ -18,10 +17,7 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.Mock;
 import org.mockito.junit.MockitoJUnitRunner;
-import org.uipcredits.mobilebanking.api.DataManager;
-import org.uipcredits.mobilebanking.ui.views.LoanAccountsTransactionView;
-import org.uipcredits.mobilebanking.util.RxSchedulersOverrideRule;
-import org.uipcredits.mobilebanking.utils.Constants;
+import org.uip.mobilebanking.utils.Constants;
 
 
 import io.reactivex.Observable;

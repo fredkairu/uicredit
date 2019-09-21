@@ -1,23 +1,18 @@
-package org.uipcredits.mobilebanking.presenters;
+package org.uip.mobilebanking.presenters;
 
 import android.content.Context;
 
-import org.uipcredits.mobilebanking.R;
-import org.uipcredits.mobilebanking.api.DataManager;
-import org.uipcredits.mobilebanking.injection.ApplicationContext;
-import org.uipcredits.mobilebanking.models.payload.LoansPayload;
-import org.uipcredits.mobilebanking.models.templates.loans.LoanTemplate;
-import org.uipcredits.mobilebanking.presenters.base.BasePresenter;
-import org.uipcredits.mobilebanking.ui.enums.LoanState;
-import org.uipcredits.mobilebanking.ui.views.LoanApplicationMvpView;
-import org.uipcredits.mobilebanking.utils.MFErrorParser;
+import org.uip.mobilebanking.R;
+import org.uip.mobilebanking.api.DataManager;
+import org.uip.mobilebanking.injection.ApplicationContext;
+import org.uip.mobilebanking.models.payload.LoansPayload;
+import org.uip.mobilebanking.models.templates.loans.LoanTemplate;
+import org.uip.mobilebanking.presenters.base.BasePresenter;
+import org.uip.mobilebanking.ui.enums.LoanState;
+import org.uip.mobilebanking.ui.views.LoanApplicationMvpView;
 
 
-import org.uipcredits.mobilebanking.api.DataManager;
-import org.uipcredits.mobilebanking.presenters.base.BasePresenter;
-import org.uipcredits.mobilebanking.ui.enums.LoanState;
-import org.uipcredits.mobilebanking.ui.views.LoanApplicationMvpView;
-import org.uipcredits.mobilebanking.utils.MFErrorParser;
+import org.uip.mobilebanking.utils.MFErrorParser;
 
 import javax.inject.Inject;
 

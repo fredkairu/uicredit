@@ -1,4 +1,4 @@
-package org.uipcredits.mobilebanking.utils;
+package org.uip.mobilebanking.utils;
 
 import android.content.Context;
 import android.content.Intent;
@@ -13,14 +13,11 @@ import android.view.View;
 import android.widget.EditText;
 
 
-import org.uipcredits.mobilebanking.R;
-import org.uipcredits.mobilebanking.api.BaseApiManager;
-import org.uipcredits.mobilebanking.api.local.PreferencesHelper;
-import org.uipcredits.mobilebanking.ui.activities.LoginActivity;
+import org.uip.mobilebanking.R;
+import org.uip.mobilebanking.api.local.PreferencesHelper;
+import org.uip.mobilebanking.ui.activities.LoginActivity;
 
-import org.uipcredits.mobilebanking.api.BaseApiManager;
-import org.uipcredits.mobilebanking.api.local.PreferencesHelper;
-import org.uipcredits.mobilebanking.ui.activities.LoginActivity;
+import org.uip.mobilebanking.api.BaseApiManager;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;

@@ -1,4 +1,4 @@
-package org.uipcredits.mobilebanking.ui.fragments;
+package org.uip.mobilebanking.ui.fragments;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -12,25 +12,25 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.github.therajanmaurya.sweeterror.SweetUIErrorHandler;
-import org.uipcredits.mobilebanking.R;
-import org.uipcredits.mobilebanking.api.local.PreferencesHelper;
-import org.uipcredits.mobilebanking.models.accounts.savings.SavingsWithAssociations;
-import org.uipcredits.mobilebanking.models.accounts.savings.Status;
-import org.uipcredits.mobilebanking.presenters.SavingAccountsDetailPresenter;
-import org.uipcredits.mobilebanking.ui.activities.base.BaseActivity;
-import org.uipcredits.mobilebanking.ui.enums.AccountType;
-import org.uipcredits.mobilebanking.ui.enums.ChargeType;
-import org.uipcredits.mobilebanking.ui.fragments.base.BaseFragment;
-import org.uipcredits.mobilebanking.ui.views.SavingAccountsDetailView;
-import org.uipcredits.mobilebanking.utils.CircularImageView;
-import org.uipcredits.mobilebanking.utils.Constants;
-import org.uipcredits.mobilebanking.utils.CurrencyUtil;
-import org.uipcredits.mobilebanking.utils.DateHelper;
-import org.uipcredits.mobilebanking.utils.Network;
-import org.uipcredits.mobilebanking.utils.QrCodeGenerator;
-import org.uipcredits.mobilebanking.utils.SymbolsUtils;
-import org.uipcredits.mobilebanking.utils.Toaster;
-import org.uipcredits.mobilebanking.utils.Utils;
+import org.uip.mobilebanking.R;
+import org.uip.mobilebanking.api.local.PreferencesHelper;
+import org.uip.mobilebanking.models.accounts.savings.SavingsWithAssociations;
+import org.uip.mobilebanking.models.accounts.savings.Status;
+import org.uip.mobilebanking.presenters.SavingAccountsDetailPresenter;
+import org.uip.mobilebanking.ui.activities.base.BaseActivity;
+import org.uip.mobilebanking.ui.enums.AccountType;
+import org.uip.mobilebanking.ui.enums.ChargeType;
+import org.uip.mobilebanking.ui.fragments.base.BaseFragment;
+import org.uip.mobilebanking.ui.views.SavingAccountsDetailView;
+import org.uip.mobilebanking.utils.CircularImageView;
+import org.uip.mobilebanking.utils.Constants;
+import org.uip.mobilebanking.utils.CurrencyUtil;
+import org.uip.mobilebanking.utils.DateHelper;
+import org.uip.mobilebanking.utils.Network;
+import org.uip.mobilebanking.utils.QrCodeGenerator;
+import org.uip.mobilebanking.utils.SymbolsUtils;
+import org.uip.mobilebanking.utils.Toaster;
+import org.uip.mobilebanking.utils.Utils;
 
 
 

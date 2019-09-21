@@ -1,4 +1,4 @@
-package org.uipcredits.mobilebanking.utils;
+package org.uip.mobilebanking.utils;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -13,7 +13,7 @@ import android.graphics.drawable.Drawable;
 import android.util.AttributeSet;
 import android.widget.ImageView;
 
-import org.uipcredits.mobilebanking.R;
+import org.uip.mobilebanking.R;
 
 
 public class CircularImageView extends android.support.v7.widget.AppCompatImageView {

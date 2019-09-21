@@ -1,4 +1,4 @@
-package org.uipcredits.mobilebanking.ui.adapters;
+package org.uip.mobilebanking.ui.adapters;
 
 import android.content.Context;
 import android.graphics.drawable.ColorDrawable;
@@ -13,9 +13,9 @@ import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import org.uipcredits.mobilebanking.R;
-import org.uipcredits.mobilebanking.injection.ActivityContext;
-import org.uipcredits.mobilebanking.models.accounts.share.ShareAccount;
+import org.uip.mobilebanking.R;
+import org.uip.mobilebanking.injection.ActivityContext;
+import org.uip.mobilebanking.models.accounts.share.ShareAccount;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package org.uipcredits.mobilebanking.ui.activities;
+package org.uip.mobilebanking.ui.activities;
 
 
 import android.content.BroadcastReceiver;
@@ -28,29 +28,29 @@ import android.widget.Toast;
 
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GoogleApiAvailability;
-import org.uipcredits.mobilebanking.R;
-import org.uipcredits.mobilebanking.api.local.PreferencesHelper;
-import org.uipcredits.mobilebanking.models.client.Client;
-import org.uipcredits.mobilebanking.presenters.UserDetailsPresenter;
-import org.uipcredits.mobilebanking.ui.activities.base.BaseActivity;
-import org.uipcredits.mobilebanking.ui.enums.AccountType;
-import org.uipcredits.mobilebanking.ui.enums.ChargeType;
-import org.uipcredits.mobilebanking.ui.fragments.AboutUsFragment;
-import org.uipcredits.mobilebanking.ui.fragments.BeneficiaryListFragment;
-import org.uipcredits.mobilebanking.ui.fragments.ClientAccountsFragment;
-import org.uipcredits.mobilebanking.ui.fragments.ClientChargeFragment;
-import org.uipcredits.mobilebanking.ui.fragments.HelpFragment;
-import org.uipcredits.mobilebanking.ui.fragments.HomeOldFragment;
-import org.uipcredits.mobilebanking.ui.fragments.NotificationFragment;
-import org.uipcredits.mobilebanking.ui.fragments.RecentTransactionsFragment;
-import org.uipcredits.mobilebanking.ui.fragments.ThirdPartyTransferFragment;
-import org.uipcredits.mobilebanking.ui.views.UserDetailsView;
-import org.uipcredits.mobilebanking.utils.CircularImageView;
-import org.uipcredits.mobilebanking.utils.Constants;
-import org.uipcredits.mobilebanking.utils.MaterialDialog;
-import org.uipcredits.mobilebanking.utils.TextDrawable;
-import org.uipcredits.mobilebanking.utils.Toaster;
-import org.uipcredits.mobilebanking.utils.gcm.RegistrationIntentService;
+import org.uip.mobilebanking.R;
+import org.uip.mobilebanking.api.local.PreferencesHelper;
+import org.uip.mobilebanking.models.client.Client;
+import org.uip.mobilebanking.presenters.UserDetailsPresenter;
+import org.uip.mobilebanking.ui.activities.base.BaseActivity;
+import org.uip.mobilebanking.ui.enums.AccountType;
+import org.uip.mobilebanking.ui.enums.ChargeType;
+import org.uip.mobilebanking.ui.fragments.AboutUsFragment;
+import org.uip.mobilebanking.ui.fragments.BeneficiaryListFragment;
+import org.uip.mobilebanking.ui.fragments.ClientAccountsFragment;
+import org.uip.mobilebanking.ui.fragments.ClientChargeFragment;
+import org.uip.mobilebanking.ui.fragments.HelpFragment;
+import org.uip.mobilebanking.ui.fragments.HomeOldFragment;
+import org.uip.mobilebanking.ui.fragments.NotificationFragment;
+import org.uip.mobilebanking.ui.fragments.RecentTransactionsFragment;
+import org.uip.mobilebanking.ui.fragments.ThirdPartyTransferFragment;
+import org.uip.mobilebanking.ui.views.UserDetailsView;
+import org.uip.mobilebanking.utils.CircularImageView;
+import org.uip.mobilebanking.utils.Constants;
+import org.uip.mobilebanking.utils.MaterialDialog;
+import org.uip.mobilebanking.utils.TextDrawable;
+import org.uip.mobilebanking.utils.Toaster;
+import org.uip.mobilebanking.utils.gcm.RegistrationIntentService;
 
 
 

@@ -1,16 +1,15 @@
-package org.uipcredits.mobilebanking;
+package org.uip.mobilebanking;
 
 import android.content.Context;
 
 import com.uipcredits.mobilebanking.R;
 
-import org.uipcredits.mobilebanking.api.DataManager;
+import org.uip.mobilebanking.api.DataManager;
 import com.uipcredits.mobilebanking.models.payload.LoansPayload;
 import com.uipcredits.mobilebanking.models.templates.loans.LoanTemplate;
-import org.uipcredits.mobilebanking.presenters.LoanApplicationPresenter;
-import org.uipcredits.mobilebanking.ui.enums.LoanState;
-import org.uipcredits.mobilebanking.ui.views.LoanApplicationMvpView;
-import org.uipcredits.mobilebanking.util.RxSchedulersOverrideRule;
+import org.uip.mobilebanking.presenters.LoanApplicationPresenter;
+import org.uip.mobilebanking.ui.views.LoanApplicationMvpView;
+import org.uip.mobilebanking.util.RxSchedulersOverrideRule;
 
 import org.junit.After;
 import org.junit.Before;
@@ -19,10 +18,7 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.Mock;
 import org.mockito.junit.MockitoJUnitRunner;
-import org.uipcredits.mobilebanking.api.DataManager;
-import org.uipcredits.mobilebanking.ui.enums.LoanState;
-import org.uipcredits.mobilebanking.ui.views.LoanApplicationMvpView;
-import org.uipcredits.mobilebanking.util.RxSchedulersOverrideRule;
+import org.uip.mobilebanking.ui.enums.LoanState;
 
 import io.reactivex.Observable;
 import okhttp3.ResponseBody;

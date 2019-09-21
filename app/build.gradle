@@ -14,18 +14,18 @@ android {
     buildToolsVersion '28.0.3'
 
     defaultConfig {
-        applicationId "org.uipcredits.mobilebanking"
+        applicationId "org.uip.mobilebanking"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 6
-        versionName "1.5"
+        versionCode 3
+        versionName "1.0.1"
         // A test runner provided by https://code.google.com/p/android-test-kit/
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         vectorDrawables.useSupportLibrary = true
 
-        ndk {
-            abiFilters "armeabi-v7a", "x86"
-        }
+//        ndk {
+//            abiFilters "armeabi-v7a", "x86"
+//        }
 
         multiDexEnabled true
     }
@@ -141,12 +141,17 @@ dependencies {
         exclude group: 'com.android.support', module: 'design'
         exclude group: 'com.android.support', module: 'support-annotations'
     }
+
+    // glide image loader
+    implementation 'com.github.bumptech.glide:glide:3.7.0'
+
     androidTestImplementation "com.android.support.test.espresso:espresso-core:$rootProject.espressoVersion"
     androidTestImplementation "com.android.support.test:runner:$rootProject.runnerVersion"
     androidTestImplementation "com.android.support.test:rules:$rootProject.rulesVersion"
     implementation "com.google.firebase:firebase-core:$rootProject.playServicesVersion"
     implementation "com.google.firebase:firebase-messaging:$rootProject.playServicesVersion"
 
+    implementation 'com.balysv:material-ripple:1.0.2'
     //ENS ADDED
     implementation 'io.github.yavski:fab-speed-dial:1.0.6'
 

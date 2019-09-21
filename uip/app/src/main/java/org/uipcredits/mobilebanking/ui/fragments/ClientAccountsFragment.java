@@ -1,4 +1,4 @@
-package org.uipcredits.mobilebanking.ui.fragments;
+package org.uip.mobilebanking.ui.fragments;
 /*
 ~This project is licensed under the open source MPL V2.
 ~See https://github.com/openMF/self-service-app/blob/master/LICENSE.md
@@ -23,22 +23,22 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
 
-import org.uipcredits.mobilebanking.R;
-import org.uipcredits.mobilebanking.models.accounts.loan.LoanAccount;
-import org.uipcredits.mobilebanking.models.accounts.savings.SavingAccount;
-import org.uipcredits.mobilebanking.models.accounts.share.ShareAccount;
-import org.uipcredits.mobilebanking.presenters.AccountsPresenter;
-import org.uipcredits.mobilebanking.ui.activities.HomeActivity;
-import org.uipcredits.mobilebanking.ui.activities.LoanApplicationActivity;
-import org.uipcredits.mobilebanking.ui.activities.base.BaseActivity;
-import org.uipcredits.mobilebanking.ui.adapters.CheckBoxAdapter;
-import org.uipcredits.mobilebanking.ui.adapters.ViewPagerAdapter;
-import org.uipcredits.mobilebanking.ui.enums.AccountType;
-import org.uipcredits.mobilebanking.ui.fragments.base.BaseFragment;
-import org.uipcredits.mobilebanking.ui.views.AccountsView;
-import org.uipcredits.mobilebanking.utils.Constants;
-import org.uipcredits.mobilebanking.utils.MaterialDialog;
-import org.uipcredits.mobilebanking.utils.StatusUtils;
+import org.uip.mobilebanking.R;
+import org.uip.mobilebanking.models.accounts.loan.LoanAccount;
+import org.uip.mobilebanking.models.accounts.savings.SavingAccount;
+import org.uip.mobilebanking.models.accounts.share.ShareAccount;
+import org.uip.mobilebanking.presenters.AccountsPresenter;
+import org.uip.mobilebanking.ui.activities.HomeActivity;
+import org.uip.mobilebanking.ui.activities.LoanApplicationActivity;
+import org.uip.mobilebanking.ui.activities.base.BaseActivity;
+import org.uip.mobilebanking.ui.adapters.CheckBoxAdapter;
+import org.uip.mobilebanking.ui.adapters.ViewPagerAdapter;
+import org.uip.mobilebanking.ui.enums.AccountType;
+import org.uip.mobilebanking.ui.fragments.base.BaseFragment;
+import org.uip.mobilebanking.ui.views.AccountsView;
+import org.uip.mobilebanking.utils.Constants;
+import org.uip.mobilebanking.utils.MaterialDialog;
+import org.uip.mobilebanking.utils.StatusUtils;
 
 
 import java.util.List;

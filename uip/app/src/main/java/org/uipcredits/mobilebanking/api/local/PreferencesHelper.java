@@ -1,15 +1,13 @@
-package org.uipcredits.mobilebanking.api.local;
+package org.uip.mobilebanking.api.local;
 
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
 import android.text.TextUtils;
 
-import org.uipcredits.mobilebanking.api.BaseURL;
-import org.uipcredits.mobilebanking.api.SelfServiceInterceptor;
-import org.uipcredits.mobilebanking.injection.ApplicationContext;
-
-import org.uipcredits.mobilebanking.api.BaseURL;
+import org.uip.mobilebanking.api.BaseURL;
+import org.uip.mobilebanking.api.SelfServiceInterceptor;
+import org.uip.mobilebanking.injection.ApplicationContext;
 
 import java.util.Map;
 

@@ -1,12 +1,10 @@
-package org.uipcredits.mobilebanking;
+package org.uip.mobilebanking;
 
 import android.content.Context;
 
-import org.uipcredits.mobilebanking.api.DataManager;
+import org.uip.mobilebanking.api.DataManager;
 import com.uipcredits.mobilebanking.models.register.RegisterPayload;
-import org.uipcredits.mobilebanking.presenters.RegistrationPresenter;
-import org.uipcredits.mobilebanking.ui.views.RegistrationView;
-import org.uipcredits.mobilebanking.util.RxSchedulersOverrideRule;
+import org.uip.mobilebanking.presenters.RegistrationPresenter;
 
 import org.junit.After;
 import org.junit.Before;
@@ -15,9 +13,8 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.Mock;
 import org.mockito.junit.MockitoJUnitRunner;
-import org.uipcredits.mobilebanking.api.DataManager;
-import org.uipcredits.mobilebanking.ui.views.RegistrationView;
-import org.uipcredits.mobilebanking.util.RxSchedulersOverrideRule;
+import org.uip.mobilebanking.ui.views.RegistrationView;
+import org.uip.mobilebanking.util.RxSchedulersOverrideRule;
 
 import io.reactivex.Observable;
 import okhttp3.ResponseBody;

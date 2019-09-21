@@ -1,14 +1,14 @@
-package org.uipcredits.mobilebanking.presenters;
+package org.uip.mobilebanking.presenters;
 
 import android.content.Context;
 
-import org.uipcredits.mobilebanking.R;
-import org.uipcredits.mobilebanking.api.DataManager;
-import org.uipcredits.mobilebanking.injection.ApplicationContext;
-import org.uipcredits.mobilebanking.models.accounts.loan.LoanWithAssociations;
-import org.uipcredits.mobilebanking.presenters.base.BasePresenter;
-import org.uipcredits.mobilebanking.ui.views.LoanAccountsDetailView;
-import org.uipcredits.mobilebanking.utils.Constants;
+import org.uip.mobilebanking.R;
+import org.uip.mobilebanking.api.DataManager;
+import org.uip.mobilebanking.injection.ApplicationContext;
+import org.uip.mobilebanking.models.accounts.loan.LoanWithAssociations;
+import org.uip.mobilebanking.presenters.base.BasePresenter;
+import org.uip.mobilebanking.ui.views.LoanAccountsDetailView;
+import org.uip.mobilebanking.utils.Constants;
 
 import javax.inject.Inject;
 

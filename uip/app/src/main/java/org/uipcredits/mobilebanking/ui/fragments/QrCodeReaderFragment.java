@@ -1,4 +1,4 @@
-package org.uipcredits.mobilebanking.ui.fragments;
+package org.uip.mobilebanking.ui.fragments;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -10,13 +10,12 @@ import android.widget.Toast;
 import com.google.gson.Gson;
 import com.google.gson.JsonSyntaxException;
 import com.google.zxing.Result;
-import org.uipcredits.mobilebanking.R;
-import org.uipcredits.mobilebanking.models.beneficiary.Beneficiary;
-import org.uipcredits.mobilebanking.ui.activities.base.BaseActivity;
-import org.uipcredits.mobilebanking.ui.enums.BeneficiaryState;
-import org.uipcredits.mobilebanking.ui.fragments.base.BaseFragment;
+import org.uip.mobilebanking.R;
+import org.uip.mobilebanking.models.beneficiary.Beneficiary;
+import org.uip.mobilebanking.ui.activities.base.BaseActivity;
+import org.uip.mobilebanking.ui.fragments.base.BaseFragment;
 
-import org.uipcredits.mobilebanking.ui.enums.BeneficiaryState;
+import org.uip.mobilebanking.ui.enums.BeneficiaryState;
 
 import me.dm7.barcodescanner.zxing.ZXingScannerView;
 

@@ -1,15 +1,14 @@
-package org.uipcredits.mobilebanking.ui.fragments.base;
+package org.uip.mobilebanking.ui.fragments.base;
 
 import android.app.Activity;
 import android.content.Context;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 
-import org.uipcredits.mobilebanking.ui.activities.base.BaseActivity;
-import org.uipcredits.mobilebanking.ui.views.BaseActivityCallback;
-import org.uipcredits.mobilebanking.utils.LanguageHelper;
-import org.uipcredits.mobilebanking.utils.ProgressBarHandler;
-import org.uipcredits.mobilebanking.ui.views.BaseActivityCallback;
+import org.uip.mobilebanking.ui.activities.base.BaseActivity;
+import org.uip.mobilebanking.utils.LanguageHelper;
+import org.uip.mobilebanking.utils.ProgressBarHandler;
+import org.uip.mobilebanking.ui.views.BaseActivityCallback;
 
 
 public class BaseFragment extends Fragment {

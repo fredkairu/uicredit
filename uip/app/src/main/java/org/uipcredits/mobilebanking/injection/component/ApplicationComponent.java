@@ -1,20 +1,16 @@
-package org.uipcredits.mobilebanking.injection.component;
+package org.uip.mobilebanking.injection.component;
 
 import android.app.Application;
 import android.content.Context;
 
-import org.uipcredits.mobilebanking.api.BaseApiManager;
-import org.uipcredits.mobilebanking.api.DataManager;
-import org.uipcredits.mobilebanking.api.local.DatabaseHelper;
-import org.uipcredits.mobilebanking.api.local.PreferencesHelper;
-import org.uipcredits.mobilebanking.injection.ApplicationContext;
-import org.uipcredits.mobilebanking.injection.module.ApplicationModule;
+import org.uip.mobilebanking.api.BaseApiManager;
+import org.uip.mobilebanking.api.DataManager;
+import org.uip.mobilebanking.api.local.DatabaseHelper;
+import org.uip.mobilebanking.injection.ApplicationContext;
+import org.uip.mobilebanking.injection.module.ApplicationModule;
 
 
-import org.uipcredits.mobilebanking.api.BaseApiManager;
-import org.uipcredits.mobilebanking.api.DataManager;
-import org.uipcredits.mobilebanking.api.local.DatabaseHelper;
-import org.uipcredits.mobilebanking.api.local.PreferencesHelper;
+import org.uip.mobilebanking.api.local.PreferencesHelper;
 
 import javax.inject.Singleton;
 

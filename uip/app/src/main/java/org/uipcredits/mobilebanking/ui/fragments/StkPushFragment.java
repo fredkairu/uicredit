@@ -1,4 +1,4 @@
-package org.uipcredits.mobilebanking.ui.fragments;
+package org.uip.mobilebanking.ui.fragments;
 
 
 import android.app.ProgressDialog;
@@ -26,11 +26,11 @@ import org.apache.http.conn.ssl.AllowAllHostnameVerifier;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import org.uipcredits.mobilebanking.R;
-import org.uipcredits.mobilebanking.utils.Constants;
-import org.uipcredits.mobilebanking.utils.FcmVolley;
-import org.uipcredits.mobilebanking.utils.gcm.Constant;
-import org.uipcredits.mobilebanking.utils.gcm.SharedPreference;
+import org.uip.mobilebanking.R;
+import org.uip.mobilebanking.utils.Constants;
+import org.uip.mobilebanking.utils.FcmVolley;
+import org.uip.mobilebanking.utils.gcm.Constant;
+import org.uip.mobilebanking.utils.gcm.SharedPreference;
 
 import java.io.BufferedReader;
 import java.io.DataOutputStream;

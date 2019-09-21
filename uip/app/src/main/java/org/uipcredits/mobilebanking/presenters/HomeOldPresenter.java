@@ -1,20 +1,20 @@
-package org.uipcredits.mobilebanking.presenters;
+package org.uip.mobilebanking.presenters;
 
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.util.Base64;
 import android.util.Log;
-import org.uipcredits.mobilebanking.R;
-import org.uipcredits.mobilebanking.api.DataManager;
-import org.uipcredits.mobilebanking.api.local.PreferencesHelper;
-import org.uipcredits.mobilebanking.injection.ActivityContext;
-import org.uipcredits.mobilebanking.models.accounts.loan.LoanAccount;
-import org.uipcredits.mobilebanking.models.accounts.savings.SavingAccount;
-import org.uipcredits.mobilebanking.models.client.Client;
-import org.uipcredits.mobilebanking.models.client.ClientAccounts;
-import org.uipcredits.mobilebanking.presenters.base.BasePresenter;
-import org.uipcredits.mobilebanking.ui.views.HomeOldView;
-import org.uipcredits.mobilebanking.utils.ImageUtil;
+import org.uip.mobilebanking.R;
+import org.uip.mobilebanking.api.DataManager;
+import org.uip.mobilebanking.api.local.PreferencesHelper;
+import org.uip.mobilebanking.injection.ActivityContext;
+import org.uip.mobilebanking.models.accounts.loan.LoanAccount;
+import org.uip.mobilebanking.models.accounts.savings.SavingAccount;
+import org.uip.mobilebanking.models.client.Client;
+import org.uip.mobilebanking.models.client.ClientAccounts;
+import org.uip.mobilebanking.presenters.base.BasePresenter;
+import org.uip.mobilebanking.ui.views.HomeOldView;
+import org.uip.mobilebanking.utils.ImageUtil;
 
 
 import java.io.IOException;

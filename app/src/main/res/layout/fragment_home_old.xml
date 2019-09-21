@@ -146,7 +146,7 @@
 
 
 
-                    <org.uipcredits.mobilebanking.utils.CircularImageView
+                    <org.uip.mobilebanking.utils.CircularImageView
                         android:id="@+id/iv_circular_user_image"
                         android:layout_width="84dp"
                         android:layout_height="84dp"
@@ -163,6 +163,16 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
+    <ImageView
+        android:layout_width="@dimen/home_image_size"
+        android:layout_height="@dimen/home_image_size"
+        android:id="@+id/uiplogo"
+        android:visibility="gone"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/userdeatil"
+        android:layout_marginTop="@dimen/layout_padding_16dp"
+        android:layout_marginBottom="@dimen/layout_padding_16dp"
+        android:src="@drawable/home"/>
 
     <ImageView
         android:id="@+id/iv_user_image"
@@ -175,6 +185,7 @@
 
     <LinearLayout
         android:layout_toRightOf="@+id/iv_user_image"
+        android:id="@+id/userdeatil"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="-2dp"
@@ -790,13 +801,7 @@
                 </LinearLayout>
             </LinearLayout>
         </android.support.v4.widget.NestedScrollView>
-        <ImageView
-            android:layout_width="@dimen/home_image_size"
-            android:layout_height="@dimen/home_image_size"
-            android:layout_alignParentBottom="true"
-            android:layout_below="@+id/NestedScrollView"
-            android:layout_marginBottom="@dimen/min_frame_size"
-            android:src="@drawable/home"/>
+
     </RelativeLayout>
     </android.support.v4.widget.SwipeRefreshLayout>
 

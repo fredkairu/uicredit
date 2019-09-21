@@ -51,6 +51,13 @@
             android:layout_width="wrap_content"
             android:text="@string/all_rights_reserved"/>
 
+        <TextView
+            android:id="@+id/contact_no"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/contact_number"/>
+
         <Button
             android:id="@+id/btn_licenses"
             android:layout_gravity="center"

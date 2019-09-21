@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">UIPCredit</string>
+    <string name="app_name">UIP</string>
     <string name="login">Login</string>
     <string name="toast_welcome">Welcome %1$s</string>
     <string name="unable_to_connect">Not connected to internet</string>
@@ -28,6 +28,7 @@
     <string name="open_drawer">Open Drawer</string>
     <string name="close_drawer">Close Drawer</string>
     <string name="home">Home</string>
+    <string name="title_home">UIP</string>
     <string name="home2">Home</string>
     <string name="medium_text">Medium Text</string>
     <string name="small_text">Small Text</string>
@@ -48,12 +49,15 @@
     <string name="select_loan_product">Apply Mobile Loan</string>
     <string name="purpose_of_loan">Purpose of Loan*</string>
     <string name="principal_amount">Principal Amount*</string>
+    <string name="title_deed_no">Title Deed Number</string>
+    <string name="id_no">ID Number</string>
     <string name="amount">Amount</string>
     <string name="remark">Remark</string>
     <string name="expected_disbursement_date">Expected Disbursement Date</string>
     <string name="submission_date">Submission Date</string>
     <string name="submitted">Submitted</string>
     <string name="disbursement">Disbursement</string>
+    <string name="disbursed">Disbursed</string>
 
     <!-- ENS ADDED -->
     <string name="borrow">Borrow</string>
@@ -379,6 +383,7 @@
     <string name="forgot_passcode">Forgot passcode, login manually</string>
     <string name="proceed">Proceed</string>
     <string name="amount_greater_than_zero">Amount should be greater than zero</string>
+    <string name="amount_less_than_min">Amount should not be less than 250</string>
     <string name="about_us_under_construction">About Us Under Construction</string>
     <string name="help_under_construction">Help Under Construction</string>
     <string name="logout">Logout</string>
@@ -537,6 +542,7 @@
     <string name="copy_right_uip">©2019-%1$s UIP Credit.</string>
     <string name="all_rights_reserved">All rights reserved.</string>
     <string name="licenses">Licenses</string>
+    <string name="contact_number">Contact Number: +254 742 035 025</string>
     <string name="transfer_error">Unable to complete transfer, please try again later</string>
     <string name="please_wait">Please Wait...</string>
     <string name="message">message</string>

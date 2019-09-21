@@ -1,4 +1,4 @@
-package org.uipcredits.mobilebanking.ui.fragments;
+package org.uip.mobilebanking.ui.fragments;
 
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -20,23 +20,23 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import org.uipcredits.mobilebanking.R;
-import org.uipcredits.mobilebanking.api.local.PreferencesHelper;
-import org.uipcredits.mobilebanking.presenters.HomePresenter;
-import org.uipcredits.mobilebanking.ui.activities.AccountOverviewActivity;
-import org.uipcredits.mobilebanking.ui.activities.HomeActivity;
-import org.uipcredits.mobilebanking.ui.activities.LoanApplicationActivity;
-import org.uipcredits.mobilebanking.ui.activities.UserProfileActivity;
-import org.uipcredits.mobilebanking.ui.activities.base.BaseActivity;
-import org.uipcredits.mobilebanking.ui.enums.AccountType;
-import org.uipcredits.mobilebanking.ui.enums.ChargeType;
-import org.uipcredits.mobilebanking.ui.fragments.base.BaseFragment;
-import org.uipcredits.mobilebanking.ui.views.HomeView;
-import org.uipcredits.mobilebanking.utils.CircularImageView;
-import org.uipcredits.mobilebanking.utils.Constants;
-import org.uipcredits.mobilebanking.utils.MaterialDialog;
-import org.uipcredits.mobilebanking.utils.TextDrawable;
-import org.uipcredits.mobilebanking.utils.Toaster;
+import org.uip.mobilebanking.R;
+import org.uip.mobilebanking.api.local.PreferencesHelper;
+import org.uip.mobilebanking.presenters.HomePresenter;
+import org.uip.mobilebanking.ui.activities.AccountOverviewActivity;
+import org.uip.mobilebanking.ui.activities.HomeActivity;
+import org.uip.mobilebanking.ui.activities.LoanApplicationActivity;
+import org.uip.mobilebanking.ui.activities.UserProfileActivity;
+import org.uip.mobilebanking.ui.activities.base.BaseActivity;
+import org.uip.mobilebanking.ui.enums.AccountType;
+import org.uip.mobilebanking.ui.enums.ChargeType;
+import org.uip.mobilebanking.ui.fragments.base.BaseFragment;
+import org.uip.mobilebanking.ui.views.HomeView;
+import org.uip.mobilebanking.utils.CircularImageView;
+import org.uip.mobilebanking.utils.Constants;
+import org.uip.mobilebanking.utils.MaterialDialog;
+import org.uip.mobilebanking.utils.TextDrawable;
+import org.uip.mobilebanking.utils.Toaster;
 
 
 import javax.inject.Inject;

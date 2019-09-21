@@ -1,4 +1,4 @@
-package org.uipcredits.mobilebanking.ui.adapters;
+package org.uip.mobilebanking.ui.adapters;
 
 import android.content.Context;
 import android.support.v4.content.ContextCompat;
@@ -10,10 +10,10 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import org.uipcredits.mobilebanking.R;
-import org.uipcredits.mobilebanking.injection.ActivityContext;
-import org.uipcredits.mobilebanking.models.notification.MifosNotification;
-import org.uipcredits.mobilebanking.utils.DateHelper;
+import org.uip.mobilebanking.R;
+import org.uip.mobilebanking.injection.ActivityContext;
+import org.uip.mobilebanking.models.notification.MifosNotification;
+import org.uip.mobilebanking.utils.DateHelper;
 
 
 import java.util.ArrayList;

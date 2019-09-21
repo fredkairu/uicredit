@@ -1,4 +1,4 @@
-package org.uipcredits.mobilebanking.ui.fragments;
+package org.uip.mobilebanking.ui.fragments;
 /*
 ~This project is licensed under the open source MPL V2.
 ~See https://github.com/openMF/self-service-app/blob/master/LICENSE.md
@@ -18,22 +18,22 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.github.therajanmaurya.sweeterror.SweetUIErrorHandler;
-import org.uipcredits.mobilebanking.R;
-import org.uipcredits.mobilebanking.api.local.PreferencesHelper;
-import org.uipcredits.mobilebanking.models.accounts.loan.LoanWithAssociations;
-import org.uipcredits.mobilebanking.models.accounts.loan.Periods;
-import org.uipcredits.mobilebanking.presenters.LoanAccountsDetailPresenter;
-import org.uipcredits.mobilebanking.ui.activities.base.BaseActivity;
-import org.uipcredits.mobilebanking.ui.enums.AccountType;
-import org.uipcredits.mobilebanking.ui.enums.ChargeType;
-import org.uipcredits.mobilebanking.ui.enums.LoanState;
-import org.uipcredits.mobilebanking.ui.fragments.base.BaseFragment;
-import org.uipcredits.mobilebanking.ui.views.LoanAccountsDetailView;
-import org.uipcredits.mobilebanking.utils.Constants;
-import org.uipcredits.mobilebanking.utils.CurrencyUtil;
-import org.uipcredits.mobilebanking.utils.DateHelper;
-import org.uipcredits.mobilebanking.utils.Network;
-import org.uipcredits.mobilebanking.utils.QrCodeGenerator;
+import org.uip.mobilebanking.R;
+import org.uip.mobilebanking.api.local.PreferencesHelper;
+import org.uip.mobilebanking.models.accounts.loan.LoanWithAssociations;
+import org.uip.mobilebanking.models.accounts.loan.Periods;
+import org.uip.mobilebanking.presenters.LoanAccountsDetailPresenter;
+import org.uip.mobilebanking.ui.activities.base.BaseActivity;
+import org.uip.mobilebanking.ui.enums.AccountType;
+import org.uip.mobilebanking.ui.enums.ChargeType;
+import org.uip.mobilebanking.ui.enums.LoanState;
+import org.uip.mobilebanking.ui.fragments.base.BaseFragment;
+import org.uip.mobilebanking.ui.views.LoanAccountsDetailView;
+import org.uip.mobilebanking.utils.Constants;
+import org.uip.mobilebanking.utils.CurrencyUtil;
+import org.uip.mobilebanking.utils.DateHelper;
+import org.uip.mobilebanking.utils.Network;
+import org.uip.mobilebanking.utils.QrCodeGenerator;
 
 
 

@@ -1,4 +1,4 @@
-package org.uipcredits.mobilebanking.ui.activities;
+package org.uip.mobilebanking.ui.activities;
 
 import android.content.Context;
 import android.content.DialogInterface;
@@ -22,12 +22,12 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.VolleyLog;
 import com.android.volley.toolbox.JsonObjectRequest;
-import org.uipcredits.mobilebanking.MifosSelfServiceApp;
-import org.uipcredits.mobilebanking.R;
+
+import org.uip.mobilebanking.R;
 
 import org.apache.http.conn.ssl.AllowAllHostnameVerifier;
 import org.json.JSONObject;
-import org.uipcredits.mobilebanking.MifosSelfServiceApp;
+import org.uip.mobilebanking.MifosSelfServiceApp;
 
 import java.io.BufferedReader;
 import java.io.DataOutputStream;

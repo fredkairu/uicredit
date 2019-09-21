@@ -1,4 +1,4 @@
-package org.uipcredits.mobilebanking.ui.fragments;
+package org.uip.mobilebanking.ui.fragments;
 
 /*
  * Created by saksham on 24/July/2018
@@ -16,22 +16,20 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import org.uipcredits.mobilebanking.R;
-import org.uipcredits.mobilebanking.models.guarantor.GuarantorPayload;
-import org.uipcredits.mobilebanking.presenters.GuarantorDetailPresenter;
-import org.uipcredits.mobilebanking.ui.activities.base.BaseActivity;
-import org.uipcredits.mobilebanking.ui.enums.GuarantorState;
-import org.uipcredits.mobilebanking.ui.fragments.base.BaseFragment;
-import org.uipcredits.mobilebanking.ui.views.GuarantorDetailView;
-import org.uipcredits.mobilebanking.utils.Constants;
-import org.uipcredits.mobilebanking.utils.DateHelper;
-import org.uipcredits.mobilebanking.utils.MaterialDialog;
-import org.uipcredits.mobilebanking.utils.RxBus;
-import org.uipcredits.mobilebanking.utils.RxEvent;
-import org.uipcredits.mobilebanking.utils.Toaster;
+import org.uip.mobilebanking.R;
+import org.uip.mobilebanking.models.guarantor.GuarantorPayload;
+import org.uip.mobilebanking.presenters.GuarantorDetailPresenter;
+import org.uip.mobilebanking.ui.activities.base.BaseActivity;
+import org.uip.mobilebanking.ui.fragments.base.BaseFragment;
+import org.uip.mobilebanking.utils.Constants;
+import org.uip.mobilebanking.utils.DateHelper;
+import org.uip.mobilebanking.utils.MaterialDialog;
+import org.uip.mobilebanking.utils.RxBus;
+import org.uip.mobilebanking.utils.RxEvent;
+import org.uip.mobilebanking.utils.Toaster;
 
-import org.uipcredits.mobilebanking.ui.enums.GuarantorState;
-import org.uipcredits.mobilebanking.ui.views.GuarantorDetailView;
+import org.uip.mobilebanking.ui.enums.GuarantorState;
+import org.uip.mobilebanking.ui.views.GuarantorDetailView;
 
 import javax.inject.Inject;
 

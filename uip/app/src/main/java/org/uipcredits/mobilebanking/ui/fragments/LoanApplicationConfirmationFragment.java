@@ -1,4 +1,4 @@
-package org.uipcredits.mobilebanking.ui.fragments;
+package org.uip.mobilebanking.ui.fragments;
 
 
 import android.content.Intent;
@@ -10,8 +10,8 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
 
-import org.uipcredits.mobilebanking.R;
-import org.uipcredits.mobilebanking.ui.activities.HomeActivity;
+import org.uip.mobilebanking.R;
+import org.uip.mobilebanking.ui.activities.HomeActivity;
 
 
 import butterknife.BindView;

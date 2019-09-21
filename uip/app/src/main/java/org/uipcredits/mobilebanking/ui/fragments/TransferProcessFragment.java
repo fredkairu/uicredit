@@ -1,4 +1,4 @@
-package org.uipcredits.mobilebanking.ui.fragments;
+package org.uip.mobilebanking.ui.fragments;
 
 import android.graphics.drawable.Animatable;
 import android.os.Bundle;
@@ -11,22 +11,20 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import org.uipcredits.mobilebanking.R;
-import org.uipcredits.mobilebanking.models.payload.TransferPayload;
-import org.uipcredits.mobilebanking.presenters.TransferProcessPresenter;
-import org.uipcredits.mobilebanking.ui.activities.SavingsAccountContainerActivity;
-import org.uipcredits.mobilebanking.ui.activities.base.BaseActivity;
-import org.uipcredits.mobilebanking.ui.enums.TransferType;
-import org.uipcredits.mobilebanking.ui.fragments.base.BaseFragment;
-import org.uipcredits.mobilebanking.ui.views.TransferProcessView;
-import org.uipcredits.mobilebanking.utils.Constants;
-import org.uipcredits.mobilebanking.utils.CurrencyUtil;
-import org.uipcredits.mobilebanking.utils.Network;
-import org.uipcredits.mobilebanking.utils.Toaster;
+import org.uip.mobilebanking.R;
+import org.uip.mobilebanking.models.payload.TransferPayload;
+import org.uip.mobilebanking.presenters.TransferProcessPresenter;
+import org.uip.mobilebanking.ui.activities.SavingsAccountContainerActivity;
+import org.uip.mobilebanking.ui.activities.base.BaseActivity;
+import org.uip.mobilebanking.ui.fragments.base.BaseFragment;
+import org.uip.mobilebanking.ui.views.TransferProcessView;
+import org.uip.mobilebanking.utils.Constants;
+import org.uip.mobilebanking.utils.CurrencyUtil;
+import org.uip.mobilebanking.utils.Network;
+import org.uip.mobilebanking.utils.Toaster;
 
 
-import org.uipcredits.mobilebanking.ui.enums.TransferType;
-import org.uipcredits.mobilebanking.ui.views.TransferProcessView;
+import org.uip.mobilebanking.ui.enums.TransferType;
 
 import javax.inject.Inject;
 

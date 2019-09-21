@@ -1,4 +1,4 @@
-package org.uipcredits.mobilebanking.ui.adapters;
+package org.uip.mobilebanking.ui.adapters;
 
 import android.content.Context;
 
@@ -10,11 +10,11 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import org.uipcredits.mobilebanking.R;
-import org.uipcredits.mobilebanking.injection.ActivityContext;
-import org.uipcredits.mobilebanking.models.accounts.savings.SavingAccount;
-import org.uipcredits.mobilebanking.utils.CurrencyUtil;
-import org.uipcredits.mobilebanking.utils.DateHelper;
+import org.uip.mobilebanking.R;
+import org.uip.mobilebanking.injection.ActivityContext;
+import org.uip.mobilebanking.models.accounts.savings.SavingAccount;
+import org.uip.mobilebanking.utils.CurrencyUtil;
+import org.uip.mobilebanking.utils.DateHelper;
 
 import java.util.ArrayList;
 import java.util.List;

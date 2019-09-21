@@ -1,11 +1,11 @@
-package org.uipcredits.mobilebanking.ui.activities;
+package org.uip.mobilebanking.ui.activities;
 
 import android.os.Bundle;
 
-import org.uipcredits.mobilebanking.R;
-import org.uipcredits.mobilebanking.ui.activities.base.BaseActivity;
-import org.uipcredits.mobilebanking.ui.enums.LoanState;
-import org.uipcredits.mobilebanking.ui.fragments.LoanApplicationFragment;
+import org.uip.mobilebanking.R;
+import org.uip.mobilebanking.ui.activities.base.BaseActivity;
+import org.uip.mobilebanking.ui.enums.LoanState;
+import org.uip.mobilebanking.ui.fragments.LoanApplicationFragment;
 
 
 public class LoanApplicationActivity extends BaseActivity {

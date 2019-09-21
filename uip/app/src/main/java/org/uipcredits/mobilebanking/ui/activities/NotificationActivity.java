@@ -1,11 +1,10 @@
-package org.uipcredits.mobilebanking.ui.activities;
+package org.uip.mobilebanking.ui.activities;
 
 import android.os.Bundle;
 
-import org.uipcredits.mobilebanking.R;
-import org.uipcredits.mobilebanking.ui.activities.base.BaseActivity;
-import org.uipcredits.mobilebanking.ui.fragments.NotificationFragment;
-import org.uipcredits.mobilebanking.ui.fragments.NotificationFragment;
+import org.uip.mobilebanking.R;
+import org.uip.mobilebanking.ui.activities.base.BaseActivity;
+import org.uip.mobilebanking.ui.fragments.NotificationFragment;
 
 
 public class NotificationActivity extends BaseActivity {

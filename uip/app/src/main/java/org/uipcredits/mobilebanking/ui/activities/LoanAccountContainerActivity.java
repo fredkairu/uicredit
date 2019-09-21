@@ -1,4 +1,4 @@
-package org.uipcredits.mobilebanking.ui.activities;
+package org.uip.mobilebanking.ui.activities;
 /*
 ~This project is licensed under the open source MPL V2.
 ~See https://github.com/openMF/self-service-app/blob/master/LICENSE.md
@@ -7,10 +7,10 @@ package org.uipcredits.mobilebanking.ui.activities;
 import android.os.Bundle;
 
 
-import org.uipcredits.mobilebanking.R;
-import org.uipcredits.mobilebanking.ui.activities.base.BaseActivity;
-import org.uipcredits.mobilebanking.ui.fragments.LoanAccountsDetailFragment;
-import org.uipcredits.mobilebanking.utils.Constants;
+import org.uip.mobilebanking.R;
+import org.uip.mobilebanking.ui.activities.base.BaseActivity;
+import org.uip.mobilebanking.ui.fragments.LoanAccountsDetailFragment;
+import org.uip.mobilebanking.utils.Constants;
 
 
 public class LoanAccountContainerActivity extends BaseActivity {

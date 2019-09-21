@@ -1,4 +1,4 @@
-package org.uipcredits.mobilebanking.ui.activities;
+package org.uip.mobilebanking.ui.activities;
 
 /*
  * Created by saksham on 01/June/2018
@@ -19,11 +19,11 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import com.mifos.mobile.passcode.utils.PasscodePreferencesHelper;
-import org.uipcredits.mobilebanking.R;
-import org.uipcredits.mobilebanking.ui.activities.base.BaseActivity;
-import org.uipcredits.mobilebanking.utils.Constants;
+import org.uip.mobilebanking.R;
+import org.uip.mobilebanking.ui.activities.base.BaseActivity;
+import org.uip.mobilebanking.utils.Constants;
 
-import static org.uipcredits.mobilebanking.api.BaseURL.MY_TIME;
+import static org.uip.mobilebanking.api.BaseURL.MY_TIME;
 
 public class SplashActivity extends BaseActivity {
 

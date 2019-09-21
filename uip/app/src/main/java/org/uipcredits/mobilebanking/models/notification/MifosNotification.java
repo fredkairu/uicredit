@@ -1,11 +1,11 @@
-package org.uipcredits.mobilebanking.models.notification;
+package org.uip.mobilebanking.models.notification;
 
 import com.raizlabs.android.dbflow.annotation.Column;
 import com.raizlabs.android.dbflow.annotation.PrimaryKey;
 import com.raizlabs.android.dbflow.annotation.Table;
 import com.raizlabs.android.dbflow.structure.BaseModel;
-import org.uipcredits.mobilebanking.api.local.SelfServiceDatabase;
-import org.uipcredits.mobilebanking.api.local.SelfServiceDatabase;
+
+import org.uip.mobilebanking.api.local.SelfServiceDatabase;
 
 
 /**

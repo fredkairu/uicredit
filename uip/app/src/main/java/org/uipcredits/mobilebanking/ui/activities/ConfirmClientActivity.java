@@ -1,4 +1,4 @@
-package org.uipcredits.mobilebanking.ui.activities;
+package org.uip.mobilebanking.ui.activities;
 
 import android.app.ProgressDialog;
 import android.content.Context;
@@ -12,10 +12,10 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import org.uipcredits.mobilebanking.ApiConfirmClientClient;
-import org.uipcredits.mobilebanking.R;
-import org.uipcredits.mobilebanking.api.ApiConfirmClientService;
-import org.uipcredits.mobilebanking.utils.ApiResponseClientConfirmation;
+import org.uip.mobilebanking.ApiConfirmClientClient;
+import org.uip.mobilebanking.R;
+import org.uip.mobilebanking.api.ApiConfirmClientService;
+import org.uip.mobilebanking.utils.ApiResponseClientConfirmation;
 
 
 import retrofit2.Call;

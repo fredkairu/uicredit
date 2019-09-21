@@ -1,4 +1,4 @@
-package org.uipcredits.mobilebanking.ui.fragments;
+package org.uip.mobilebanking.ui.fragments;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -12,19 +12,17 @@ import android.widget.Toast;
 
 import com.github.therajanmaurya.sweeterror.SweetUIErrorHandler;
 
-import org.uipcredits.mobilebanking.R;
-import org.uipcredits.mobilebanking.models.notification.MifosNotification;
-import org.uipcredits.mobilebanking.presenters.NotificationPresenter;
-import org.uipcredits.mobilebanking.ui.activities.base.BaseActivity;
-import org.uipcredits.mobilebanking.ui.adapters.NotificationAdapter;
-import org.uipcredits.mobilebanking.ui.fragments.base.BaseFragment;
-import org.uipcredits.mobilebanking.ui.views.NotificationView;
-import org.uipcredits.mobilebanking.utils.DividerItemDecoration;
-import org.uipcredits.mobilebanking.utils.Network;
+import org.uip.mobilebanking.R;
+import org.uip.mobilebanking.models.notification.MifosNotification;
+import org.uip.mobilebanking.presenters.NotificationPresenter;
+import org.uip.mobilebanking.ui.activities.base.BaseActivity;
+import org.uip.mobilebanking.ui.fragments.base.BaseFragment;
+import org.uip.mobilebanking.utils.DividerItemDecoration;
+import org.uip.mobilebanking.utils.Network;
 
 
-import org.uipcredits.mobilebanking.ui.adapters.NotificationAdapter;
-import org.uipcredits.mobilebanking.ui.views.NotificationView;
+import org.uip.mobilebanking.ui.adapters.NotificationAdapter;
+import org.uip.mobilebanking.ui.views.NotificationView;
 
 import java.util.List;
 

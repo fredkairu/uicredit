@@ -1,4 +1,4 @@
-package org.uipcredits.mobilebanking.ui.fragments;
+package org.uip.mobilebanking.ui.fragments;
 
 /*
 ~This project is licensed under the open source MPL V2.
@@ -24,19 +24,17 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 
-import org.uipcredits.mobilebanking.R;
-import org.uipcredits.mobilebanking.models.FAQ;
-import org.uipcredits.mobilebanking.presenters.HelpPresenter;
-import org.uipcredits.mobilebanking.ui.activities.base.BaseActivity;
-import org.uipcredits.mobilebanking.ui.adapters.FAQAdapter;
-import org.uipcredits.mobilebanking.ui.fragments.base.BaseFragment;
-import org.uipcredits.mobilebanking.ui.views.HelpView;
-import org.uipcredits.mobilebanking.utils.Constants;
-import org.uipcredits.mobilebanking.utils.DividerItemDecoration;
+import org.uip.mobilebanking.R;
+import org.uip.mobilebanking.models.FAQ;
+import org.uip.mobilebanking.presenters.HelpPresenter;
+import org.uip.mobilebanking.ui.activities.base.BaseActivity;
+import org.uip.mobilebanking.ui.adapters.FAQAdapter;
+import org.uip.mobilebanking.ui.fragments.base.BaseFragment;
+import org.uip.mobilebanking.utils.Constants;
+import org.uip.mobilebanking.utils.DividerItemDecoration;
 
 
-import org.uipcredits.mobilebanking.ui.adapters.FAQAdapter;
-import org.uipcredits.mobilebanking.ui.views.HelpView;
+import org.uip.mobilebanking.ui.views.HelpView;
 
 import java.util.ArrayList;
 

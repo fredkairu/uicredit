@@ -1,10 +1,10 @@
-package org.uipcredits.mobilebanking.utils;
+package org.uip.mobilebanking.utils;
 
 import android.content.Context;
 import android.support.v4.content.ContextCompat;
 
-import org.uipcredits.mobilebanking.R;
-import org.uipcredits.mobilebanking.models.CheckboxStatus;
+import org.uip.mobilebanking.R;
+import org.uip.mobilebanking.models.CheckboxStatus;
 
 import java.util.ArrayList;
 import java.util.List;

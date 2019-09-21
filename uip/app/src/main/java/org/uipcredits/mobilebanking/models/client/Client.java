@@ -1,10 +1,10 @@
-package org.uipcredits.mobilebanking.models.client;
+package org.uip.mobilebanking.models.client;
 
 import android.os.Parcel;
 import android.os.Parcelable;
 
 import com.google.gson.annotations.SerializedName;
-import org.uipcredits.mobilebanking.models.accounts.loan.Timeline;
+import org.uip.mobilebanking.models.accounts.loan.Timeline;
 
 
 

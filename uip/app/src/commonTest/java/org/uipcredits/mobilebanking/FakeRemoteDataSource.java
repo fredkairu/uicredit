@@ -1,43 +1,30 @@
-package org.uipcredits.mobilebanking;
+package org.uip.mobilebanking;
 
 import com.google.gson.reflect.TypeToken;
-import org.uipcredits.mobilebanking.models.Charge;
-import org.uipcredits.mobilebanking.models.Page;
-import org.uipcredits.mobilebanking.models.Transaction;
-import org.uipcredits.mobilebanking.models.User;
-import org.uipcredits.mobilebanking.models.accounts.loan.LoanAccount;
-import org.uipcredits.mobilebanking.models.accounts.loan.LoanWithAssociations;
-import org.uipcredits.mobilebanking.models.accounts.savings.SavingsWithAssociations;
-import org.uipcredits.mobilebanking.models.beneficiary.Beneficiary;
-import org.uipcredits.mobilebanking.models.beneficiary.BeneficiaryPayload;
-import org.uipcredits.mobilebanking.models.beneficiary.BeneficiaryUpdatePayload;
+import org.uip.mobilebanking.models.Charge;
+import org.uip.mobilebanking.models.Page;
+import org.uip.mobilebanking.models.accounts.loan.LoanAccount;
+import org.uip.mobilebanking.models.accounts.loan.LoanWithAssociations;
+import org.uip.mobilebanking.models.accounts.savings.SavingsWithAssociations;
+import org.uip.mobilebanking.models.beneficiary.Beneficiary;
+import org.uip.mobilebanking.models.beneficiary.BeneficiaryPayload;
+import org.uip.mobilebanking.models.beneficiary.BeneficiaryUpdatePayload;
 
-import org.uipcredits.mobilebanking.models.client.Client;
-import org.uipcredits.mobilebanking.models.client.ClientAccounts;
-import org.uipcredits.mobilebanking.models.guarantor.GuarantorPayload;
-import org.uipcredits.mobilebanking.models.guarantor.GuarantorTemplatePayload;
-import org.uipcredits.mobilebanking.models.payload.LoansPayload;
-import org.uipcredits.mobilebanking.models.payload.TransferPayload;
-import org.uipcredits.mobilebanking.models.register.RegisterPayload;
-import org.uipcredits.mobilebanking.models.register.UserVerify;
-import org.uipcredits.mobilebanking.models.templates.account.AccountOptionsTemplate;
-import org.uipcredits.mobilebanking.models.templates.beneficiary.BeneficiaryTemplate;
-import org.uipcredits.mobilebanking.models.templates.loans.LoanTemplate;
+import org.uip.mobilebanking.models.client.Client;
+import org.uip.mobilebanking.models.client.ClientAccounts;
+import org.uip.mobilebanking.models.guarantor.GuarantorPayload;
+import org.uip.mobilebanking.models.guarantor.GuarantorTemplatePayload;
+import org.uip.mobilebanking.models.payload.LoansPayload;
+import org.uip.mobilebanking.models.payload.TransferPayload;
+import org.uip.mobilebanking.models.register.RegisterPayload;
+import org.uip.mobilebanking.models.templates.account.AccountOptionsTemplate;
 
 
-import org.uipcredits.mobilebanking.models.Page;
-import org.uipcredits.mobilebanking.models.Transaction;
-import org.uipcredits.mobilebanking.models.User;
-import org.uipcredits.mobilebanking.models.client.ClientAccounts;
-import org.uipcredits.mobilebanking.models.guarantor.GuarantorPayload;
-import org.uipcredits.mobilebanking.models.guarantor.GuarantorTemplatePayload;
-import org.uipcredits.mobilebanking.models.payload.LoansPayload;
-import org.uipcredits.mobilebanking.models.payload.TransferPayload;
-import org.uipcredits.mobilebanking.models.register.RegisterPayload;
-import org.uipcredits.mobilebanking.models.register.UserVerify;
-import org.uipcredits.mobilebanking.models.templates.account.AccountOptionsTemplate;
-import org.uipcredits.mobilebanking.models.templates.beneficiary.BeneficiaryTemplate;
-import org.uipcredits.mobilebanking.models.templates.loans.LoanTemplate;
+import org.uip.mobilebanking.models.Transaction;
+import org.uip.mobilebanking.models.User;
+import org.uip.mobilebanking.models.register.UserVerify;
+import org.uip.mobilebanking.models.templates.beneficiary.BeneficiaryTemplate;
+import org.uip.mobilebanking.models.templates.loans.LoanTemplate;
 
 import java.util.List;
 

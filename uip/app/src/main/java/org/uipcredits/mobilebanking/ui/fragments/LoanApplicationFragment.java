@@ -1,4 +1,4 @@
-package org.uipcredits.mobilebanking.ui.fragments;
+package org.uip.mobilebanking.ui.fragments;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -16,22 +16,22 @@ import android.widget.RelativeLayout;
 import android.widget.Spinner;
 import android.widget.TextView;
 
-import org.uipcredits.mobilebanking.R;
-import org.uipcredits.mobilebanking.models.accounts.loan.LoanAccount;
-import org.uipcredits.mobilebanking.models.accounts.loan.LoanWithAssociations;
-import org.uipcredits.mobilebanking.models.payload.LoansPayload;
-import org.uipcredits.mobilebanking.models.templates.loans.LoanTemplate;
-import org.uipcredits.mobilebanking.models.templates.loans.ProductOptions;
-import org.uipcredits.mobilebanking.presenters.LoanApplicationPresenter;
-import org.uipcredits.mobilebanking.ui.activities.base.BaseActivity;
-import org.uipcredits.mobilebanking.ui.enums.LoanState;
-import org.uipcredits.mobilebanking.ui.fragments.base.BaseFragment;
-import org.uipcredits.mobilebanking.ui.views.LoanApplicationMvpView;
-import org.uipcredits.mobilebanking.utils.Constants;
-import org.uipcredits.mobilebanking.utils.DateHelper;
-import org.uipcredits.mobilebanking.utils.MFDatePicker;
-import org.uipcredits.mobilebanking.utils.Network;
-import org.uipcredits.mobilebanking.utils.Toaster;
+import org.uip.mobilebanking.R;
+import org.uip.mobilebanking.models.accounts.loan.LoanAccount;
+import org.uip.mobilebanking.models.accounts.loan.LoanWithAssociations;
+import org.uip.mobilebanking.models.payload.LoansPayload;
+import org.uip.mobilebanking.models.templates.loans.LoanTemplate;
+import org.uip.mobilebanking.models.templates.loans.ProductOptions;
+import org.uip.mobilebanking.presenters.LoanApplicationPresenter;
+import org.uip.mobilebanking.ui.activities.base.BaseActivity;
+import org.uip.mobilebanking.ui.enums.LoanState;
+import org.uip.mobilebanking.ui.fragments.base.BaseFragment;
+import org.uip.mobilebanking.ui.views.LoanApplicationMvpView;
+import org.uip.mobilebanking.utils.Constants;
+import org.uip.mobilebanking.utils.DateHelper;
+import org.uip.mobilebanking.utils.MFDatePicker;
+import org.uip.mobilebanking.utils.Network;
+import org.uip.mobilebanking.utils.Toaster;
 
 
 import java.util.ArrayList;

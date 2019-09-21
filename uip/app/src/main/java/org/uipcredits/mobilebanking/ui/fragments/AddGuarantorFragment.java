@@ -1,4 +1,4 @@
-package org.uipcredits.mobilebanking.ui.fragments;
+package org.uip.mobilebanking.ui.fragments;
 
 /*
  * Created by saksham on 23/July/2018
@@ -14,23 +14,21 @@ import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 import android.widget.Toast;
 
-import org.uipcredits.mobilebanking.R;
-import org.uipcredits.mobilebanking.models.guarantor.GuarantorApplicationPayload;
-import org.uipcredits.mobilebanking.models.guarantor.GuarantorPayload;
-import org.uipcredits.mobilebanking.models.guarantor.GuarantorTemplatePayload;
-import org.uipcredits.mobilebanking.models.guarantor.GuarantorType;
-import org.uipcredits.mobilebanking.presenters.AddGuarantorPresenter;
-import org.uipcredits.mobilebanking.ui.activities.base.BaseActivity;
-import org.uipcredits.mobilebanking.ui.enums.GuarantorState;
-import org.uipcredits.mobilebanking.ui.fragments.base.BaseFragment;
-import org.uipcredits.mobilebanking.ui.views.AddGuarantorView;
-import org.uipcredits.mobilebanking.utils.Constants;
-import org.uipcredits.mobilebanking.utils.RxBus;
-import org.uipcredits.mobilebanking.utils.RxEvent;
-import org.uipcredits.mobilebanking.utils.Toaster;
+import org.uip.mobilebanking.R;
+import org.uip.mobilebanking.models.guarantor.GuarantorApplicationPayload;
+import org.uip.mobilebanking.models.guarantor.GuarantorPayload;
+import org.uip.mobilebanking.models.guarantor.GuarantorTemplatePayload;
+import org.uip.mobilebanking.models.guarantor.GuarantorType;
+import org.uip.mobilebanking.presenters.AddGuarantorPresenter;
+import org.uip.mobilebanking.ui.activities.base.BaseActivity;
+import org.uip.mobilebanking.ui.enums.GuarantorState;
+import org.uip.mobilebanking.ui.fragments.base.BaseFragment;
+import org.uip.mobilebanking.utils.Constants;
+import org.uip.mobilebanking.utils.RxBus;
+import org.uip.mobilebanking.utils.RxEvent;
+import org.uip.mobilebanking.utils.Toaster;
 
-import org.uipcredits.mobilebanking.ui.enums.GuarantorState;
-import org.uipcredits.mobilebanking.ui.views.AddGuarantorView;
+import org.uip.mobilebanking.ui.views.AddGuarantorView;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,12 +1,12 @@
-package org.uipcredits.mobilebanking.presenters;
+package org.uip.mobilebanking.presenters;
 
 import android.content.Context;
-import org.uipcredits.mobilebanking.api.DataManager;
-import org.uipcredits.mobilebanking.injection.ApplicationContext;
-import org.uipcredits.mobilebanking.models.register.RegisterPayload;
-import org.uipcredits.mobilebanking.presenters.base.BasePresenter;
-import org.uipcredits.mobilebanking.ui.views.RegistrationView;
-import org.uipcredits.mobilebanking.utils.MFErrorParser;
+import org.uip.mobilebanking.api.DataManager;
+import org.uip.mobilebanking.injection.ApplicationContext;
+import org.uip.mobilebanking.models.register.RegisterPayload;
+import org.uip.mobilebanking.presenters.base.BasePresenter;
+import org.uip.mobilebanking.ui.views.RegistrationView;
+import org.uip.mobilebanking.utils.MFErrorParser;
 
 
 

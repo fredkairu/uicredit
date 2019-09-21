@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.uipcredits.mobilebanking.utils.gcm;
+package org.uip.mobilebanking.utils.gcm;
 
 import android.app.NotificationManager;
 import android.app.PendingIntent;
@@ -27,12 +27,10 @@ import android.support.v4.app.NotificationCompat;
 import android.support.v4.content.LocalBroadcastManager;
 
 import com.google.android.gms.gcm.GcmListenerService;
-import org.uipcredits.mobilebanking.R;
-import org.uipcredits.mobilebanking.models.notification.MifosNotification;
-import org.uipcredits.mobilebanking.ui.activities.HomeActivity;
-import org.uipcredits.mobilebanking.utils.Constants;
-import org.uipcredits.mobilebanking.ui.activities.HomeActivity;
-import org.uipcredits.mobilebanking.utils.Constants;
+import org.uip.mobilebanking.R;
+import org.uip.mobilebanking.models.notification.MifosNotification;
+import org.uip.mobilebanking.utils.Constants;
+import org.uip.mobilebanking.ui.activities.HomeActivity;
 
 
 public class MifosGcmListenerService extends GcmListenerService {

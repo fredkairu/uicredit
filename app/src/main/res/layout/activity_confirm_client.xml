@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="org.uipcredits.mobilebanking.ui.activities.CreateClientActivity">
+    tools:context="org.uip.mobilebanking.ui.activities.CreateClientActivity">
 
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         style="@style/LinearLayout.Base">

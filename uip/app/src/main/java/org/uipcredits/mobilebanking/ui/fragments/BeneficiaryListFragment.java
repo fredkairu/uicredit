@@ -1,4 +1,4 @@
-package org.uipcredits.mobilebanking.ui.fragments;
+package org.uip.mobilebanking.ui.fragments;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -14,22 +14,20 @@ import android.view.ViewGroup;
 import android.widget.Toast;
 
 import com.github.therajanmaurya.sweeterror.SweetUIErrorHandler;
-import org.uipcredits.mobilebanking.R;
-import org.uipcredits.mobilebanking.models.beneficiary.Beneficiary;
-import org.uipcredits.mobilebanking.presenters.BeneficiaryListPresenter;
-import org.uipcredits.mobilebanking.ui.activities.AddBeneficiaryActivity;
-import org.uipcredits.mobilebanking.ui.activities.base.BaseActivity;
-import org.uipcredits.mobilebanking.ui.adapters.BeneficiaryListAdapter;
-import org.uipcredits.mobilebanking.ui.fragments.base.BaseFragment;
-import org.uipcredits.mobilebanking.ui.views.BeneficiariesView;
-import org.uipcredits.mobilebanking.utils.Constants;
-import org.uipcredits.mobilebanking.utils.DividerItemDecoration;
-import org.uipcredits.mobilebanking.utils.Network;
-import org.uipcredits.mobilebanking.utils.RecyclerItemClickListener;
+import org.uip.mobilebanking.R;
+import org.uip.mobilebanking.models.beneficiary.Beneficiary;
+import org.uip.mobilebanking.presenters.BeneficiaryListPresenter;
+import org.uip.mobilebanking.ui.activities.AddBeneficiaryActivity;
+import org.uip.mobilebanking.ui.activities.base.BaseActivity;
+import org.uip.mobilebanking.ui.fragments.base.BaseFragment;
+import org.uip.mobilebanking.ui.views.BeneficiariesView;
+import org.uip.mobilebanking.utils.Constants;
+import org.uip.mobilebanking.utils.DividerItemDecoration;
+import org.uip.mobilebanking.utils.Network;
+import org.uip.mobilebanking.utils.RecyclerItemClickListener;
 
 
-import org.uipcredits.mobilebanking.ui.adapters.BeneficiaryListAdapter;
-import org.uipcredits.mobilebanking.ui.views.BeneficiariesView;
+import org.uip.mobilebanking.ui.adapters.BeneficiaryListAdapter;
 
 import java.util.ArrayList;
 import java.util.List;
