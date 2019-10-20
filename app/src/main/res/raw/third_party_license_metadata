@@ -1,62 +1,14 @@
-0:46 multidex
-48:47 play-services-maps
-97:47 play-services-gcm
-146:47 firebase-messaging
-195:47 play-services-iid
-244:47 play-services-base
-293:47 firebase-analytics
-342:47 firebase-analytics-impl
-391:47 firebase-iid
-440:47 firebase-common
-489:47 play-services-tasks
-538:47 play-services-basement
-587:46 support-v4
-635:46 design
-683:46 preference-v7
-731:46 appcompat-v7
-779:46 cardview-v7
-827:46 recyclerview-v7
-875:46 animated-vector-drawable
-923:46 support-vector-drawable
-971:92 glide
-1065:46 material-ripple
-1113:46 support-fragment
-1161:46 support-core-ui
-1209:46 support-core-utils
-1257:46 transition
-1305:46 loader
-1353:46 viewpager
-1401:46 coordinatorlayout
-1449:46 drawerlayout
-1497:46 slidingpanelayout
-1545:46 customview
-1593:46 swiperefreshlayout
-1641:46 asynclayoutinflater
-1689:46 support-media-compat
-1737:46 support-compat
-1785:46 versionedparcelable
-1833:46 collections
-1881:46 cursoradapter
-2361:46 runtime
-1977:46 documentfile
-2025:46 localbroadcastmanager
-2073:46 print
-2121:46 viewmodel
-2169:46 interpolator
-2217:46 livedata
-2265:46 livedata-core
-2409:46 common
-2457:46 support-annotations
-2505:243 tz database
-2750:2500 zlib
-5252:1602 JSR 305
-6856:731 UTF
-7589:11358 safeparcel
-18949:1558 RE2
-20509:1732 Protobuf Nano
-22243:1481 darts_clone
-23726:3182 PCRE
-26910:11358 CCTZ
-38270:19442 ICU4C
-57714:680 STL
-58396:46 jsr305
+0:46 support-v4
+48:46 support-media-compat
+96:243 tz database
+341:2500 zlib
+2843:1602 JSR 305
+4447:731 UTF
+5180:11358 safeparcel
+16540:1558 RE2
+18100:1732 Protobuf Nano
+19834:1481 darts_clone
+21317:3182 PCRE
+24501:11358 CCTZ
+35861:19442 ICU4C
+55305:680 STL

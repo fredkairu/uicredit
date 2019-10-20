@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: com.balysv:material-ripple:1.0.2@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/material-ripple-1.0.2.aar/a2c1a7c158685d24d17ad25764268280/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/material-ripple-1.0.2.aar/a2c1a7c158685d24d17ad25764268280/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/material-ripple-1.0.2.aar/74879c222464b35c9cd8378c1365bcfb/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/material-ripple-1.0.2.aar/74879c222464b35c9cd8378c1365bcfb/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

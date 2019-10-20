@@ -224,9 +224,9 @@ public class HomeOldPresenter extends BasePresenter<HomeOldView> {
     private double getLoanAccountDetails(List<LoanAccount> loanAccountList) {
         double totalAmount = 0;
         for (LoanAccount loanAccount : loanAccountList) {
-            if(loanAccount.getStatus().getWaitingForDisbursal() || loanAccount.getStatus().getPendingApproval()){
-                HomeOldFragment.ll_apply_for_loan.setEnabled(false);
-            }
+//            if(loanAccount.getStatus().getWaitingForDisbursal() || loanAccount.getStatus().getPendingApproval()){
+//                HomeOldFragment.ll_apply_for_loan.setEnabled(false);
+//            }
             totalAmount += loanAccount.getLoanBalance();
         }
         return totalAmount;
